@@ -46,11 +46,11 @@ const Stages = () => {
         transition={{ duration: 0.6 }}
         variants={fadeIn}
       >
-        <h2 className="uppercase text-sm tracking-wider text-gray-500 mb-4">
+        <h2 className="uppercase text-sm font-bold tracking-wider text-orange-500 mb-4">
           {t.sectionTitle}
         </h2>
         <MotionP
-          className="text-2xl md:text-3xl lg:text-4xl font-light leading-snug mb-8"
+          className="text-2xl md:text-3xl lg:text-4xl font-light text-white leading-snug mb-8"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -78,7 +78,7 @@ const Stages = () => {
       </MotionDiv>
 
       <MotionDiv
-        className="border-t border-gray-200"
+        className="border-t border-gray-100/20"
         variants={containerVariants}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
@@ -87,19 +87,19 @@ const Stages = () => {
           <MotionDiv
             key={index}
             variants={itemVariants}
-            className="py-10 border-b border-gray-200"
+            className="py-10 border-b border-gray-100/20"
           >
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
               <div className="md:col-span-1">
                 <div className="text-xs text-gray-400">step {stage.step}</div>
               </div>
               <div className="md:col-span-5">
-                <h3 className="text-2xl md:text-3xl font-normal">
+                <h3 className="text-2xl md:text-3xl font-normal text-white">
                   {stage.title}
                 </h3>
               </div>
               <div className="md:col-span-6">
-                <p className="text-md text-gray-500 max-w-full leading-loose">
+                <p className="text-md text-gray-400 max-w-full leading-loose">
                   {stage.description}
                 </p>
               </div>
