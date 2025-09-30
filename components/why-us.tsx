@@ -91,10 +91,12 @@ const WhyUs = () => {
               />
             >
               <div className="flex justify-between items-start mb-4">
-                <span className="text-6xl font-thin text-gray-500">
+                <span className="text-6xl font-thin text-gray-500 transition-colors duration-300 group-hover:text-white">
                   {reason.number}
                 </span>
-                <div className="flex justify-end">{icons[index]}</div>
+                <div className="flex justify-end text-gray-400 transition-colors duration-300 group-hover:text-white">
+                  {icons[index]}
+                </div>
               </div>
               <h3 className="text-lg font-normal text-white mb-3">
                 {reason.title}
