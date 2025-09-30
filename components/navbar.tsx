@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <MotionHeader
-      className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm"
+      className="absolute top-0 left-0 right-0 z-50"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -37,9 +37,9 @@ const Navbar = () => {
             alt="FNDRS logo"
             width={35}
             height={25}
-            className="h-4 w-auto object-cover invert"
+            className="h-4 w-auto object-cover"
           />
-          <span className="pl-2 border-l border-black/40">Agency</span>
+          <span className="pl-2 border-l border-white text-white">Agency</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -50,9 +50,9 @@ const Navbar = () => {
               href={`/${language}/${href}`}
               className="group inline-block"
             >
-              <span className="relative inline-block text-sm font-semibold text-black/70 transition-colors duration-200 hover:text-black">
+              <span className="relative inline-block text-sm font-semibold text-white transition-colors duration-200">
                 {label}
-                <span className="absolute left-0 -bottom-1 block h-[4px] w-full bg-black transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                <span className="absolute left-0 -bottom-1 block h-[4px] w-full bg-white transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100" />
               </span>
             </Link>
           ))}
@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <Button
-            variant="outline"
+            variant="primary"
             onClick={() => {
               trackButtonClick("contact_cta", "navbar");
               router.push(`/${language}/contact`);
@@ -121,7 +121,7 @@ const Navbar = () => {
                 transition={{ duration: 0.25, delay: 0.05 }}
               >
                 <Button
-                  className="w-full bg-black text-white"
+                  className="w-full bg-white text-black"
                   onClick={() => {
                     setIsOpen(false);
                     router.push(`/${language}/contact`);

@@ -4,22 +4,22 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
+    --background: #000;
+    --foreground: #fff;
+    --card: #000;
+    --primary: #fff;
+    --primary-foreground: #000;
+    --secondary: #fff;
     --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
+    --muted: #fff;
+    --muted-foreground: #000;
     --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
+    --accent-foreground: #000;
+    --destructive: #fff;
+    --destructive-foreground: #000;
+    --border: #fff;
+    --input: #fff;
+    --ring: #fff;
     --radius: 0.5rem;
   }
 
@@ -48,6 +48,7 @@
 
   html {
     scroll-behavior: smooth;
+    background-color: #000;
   }
 
   html.font-preload {

@@ -91,54 +91,57 @@ const TeamMember = ({
 export default function TeamSection() {
   const { language } = useLanguage();
   const t = teamText[language as keyof typeof teamText] || teamText.en;
-  const { heading, description, members, badge = "" } = t;
+  const {
+    heading,
+    headingPart1,
+    headingPart2,
+    sectionLabel,
+    sectionDescription,
+    description,
+    members,
+    badge = "",
+  } = t;
 
   return (
-    <section id="team" className="py-16 px-4 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <MotionDiv
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          variants={fadeIn}
-          className="flex flex-col md:flex-row md:items-center md:justify-between mb-12"
-        >
-          <div className="mb-8 md:mb-0">
-            <div className="inline-block px-4 py-1 bg-indigo-100 text-blue-700 rounded-full text-sm font-medium mb-4">
-              {badge}
+    <section id="team" className=" bg-black px-4">
+      <div className="rounded-2xl bg-white py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          {/* Nueva sección estilo imagen */}
+          <div className="mb-16">
+            <div className="text-orange-500 text-md font-bold uppercase tracking-wider mb-4">
+              {sectionLabel}
             </div>
-            <h2 className="text-4xl max-w-[48rem] md:text-5xl font-bold text-gray-900 mb-4">
-              {heading}
-            </h2>
-            <p className="text-gray-600 max-w-2xl">{description}</p>
+            <div className="text-4xl md:text-5xl lg:text-4xl font-semibold leading-tight max-w-2xl">
+              <span className="text-gray-900 max-w-2xl">{headingPart1}</span>{" "}
+              <span className="text-[#7f7f7f] max-w-5xl">{description}</span>
+            </div>
           </div>
-        </MotionDiv>
 
-        <MotionDiv
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          variants={{
-            hidden: {},
-            visible: {
-              transition: { staggerChildren: 0.15 },
-            },
-          }}
-        >
-          {members.map((member, idx) => (
-            <TeamMember
-              key={idx}
-              name={member.name}
-              role={member.role}
-              bio={member.bio}
-              image={member.image}
-              socialLinks={member}
-            />
-          ))}
-        </MotionDiv>
+          <MotionDiv
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            variants={{
+              hidden: {},
+              visible: {
+                transition: { staggerChildren: 0.15 },
+              },
+            }}
+          >
+            {members.map((member, idx) => (
+              <TeamMember
+                key={idx}
+                name={member.name}
+                role={member.role}
+                bio={member.bio}
+                image={member.image}
+                socialLinks={member}
+              />
+            ))}
+          </MotionDiv>
+        </div>
       </div>
     </section>
   );

@@ -1,2 +1,11 @@
 /* Los estilos principales ya están en critical.css */
 /* Este archivo se mantiene para compatibilidad */
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

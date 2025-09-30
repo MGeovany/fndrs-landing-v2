@@ -4,17 +4,18 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-0",
   {
     variants: {
       variant: {
-        default: "bg-black text-primary-foreground hover:bg-primary/90",
+        primary:
+          "bg-black text-white relative overflow-hidden transition-all duration-300 hover:text-black [background-image:linear-gradient(90deg,white_0%,white_100%)] [background-size:0%_100%] [background-repeat:no-repeat] [background-position:left] hover:[background-size:100%_100%]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-input bg-background hover:bg-black hover:text-accent-foreground hover:text-white transition-all duration-500",
+          "border border-white bg-transparent text-white relative overflow-hidden transition-all duration-300 hover:text-black hover:border-white [background-image:linear-gradient(90deg,white_0%,white_100%)] [background-size:0%_100%] [background-repeat:no-repeat] [background-position:left] hover:[background-size:100%_100%]",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+          "bg-white text-black relative overflow-hidden transition-all duration-300 hover:text-white [background-image:linear-gradient(90deg,black_0%,black_100%)] [background-size:0%_100%] [background-repeat:no-repeat] [background-position:left] hover:[background-size:100%_100%]",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
       },
@@ -26,7 +27,7 @@ const buttonVariants = cva(
       },
     },
     defaultVariants: {
-      variant: "default",
+      variant: "primary",
       size: "default",
     },
   }
@@ -42,7 +43,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {
     return (
       <button
-        className={cn(buttonVariants({ variant, size, className }))}
+        className={cn(
+          buttonVariants({ variant, size, className }),
+          "relative z-10"
+        )}
         ref={ref}
         {...props}
       />

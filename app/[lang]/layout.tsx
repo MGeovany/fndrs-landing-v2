@@ -34,9 +34,8 @@ export async function generateMetadata({
 export default function Layout({ children }: Props) {
   return (
     <div className="grid min-h-dvh grid-rows-[auto_1fr_auto]">
-      <Navbar />
       <div />
-      <main className="bg-white w-screen min-h-screen">{children}</main>
+      <main className="w-screen min-h-screen">{children}</main>
       <Footer />
     </div>
   );
