@@ -1,22 +1,22 @@
 export const heroText = {
   en: {
-    title: "Building Your Future With Digital Solutions",
+    title: "Building Products that fulfill your Business Goals",
     description:
-      "is a 360 consulting agency. The focus of our work is help clients to found and build their future based on technology, mitigating risk and drive efficiency through people, process and technology.",
+      "fits best for early stage startups and businesses that are looking to build products that can help them achieve their goals.",
     getStarted: "Get Started",
     viewServices: "View Our Services",
   },
   es: {
-    title: "Construyendo tu futuro con soluciones digitales",
+    title: "Construyendo Productos que cumplan con los Objetivos de tu Negocio",
     description:
-      "es una agencia de consultoría 360. Nuestro enfoque es ayudar a los clientes a fundar y construir su futuro a través de la tecnología, mitigando riesgos y mejorando la eficiencia mediante personas, procesos y tecnología.",
+      "se adapta mejor para startups y empresas que están buscando construir productos que puedan ayudarles a lograr sus objetivos.",
     getStarted: "Comenzar ahora",
     viewServices: "Ver nuestros servicios",
   },
   ja: {
-    title: "デジタルソリューションであなたの未来を築く",
+    title: "ビジネス目標を達成するための製品を構築する",
     description:
-      "は360度のコンサルティングエージェンシーです。私たちの仕事の中心は、クライアントがテクノロジーを基盤に未来を築けるよう支援することです。人材、プロセス、テクノロジーを通じてリスクを軽減し、効率を向上させます。",
+      "適しているのは、早期段階のスタートアップと、目標を達成するための製品を探している企業です。",
     getStarted: "今すぐ始める",
     viewServices: "サービスを見る",
   },
