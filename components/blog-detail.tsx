@@ -11,6 +11,7 @@ import { calculateReadTime } from "@/lib/utils";
 import ReadingProgress from "./reading-progress";
 import ShareButtons from "./share-buttons";
 import BlogStructuredData from "./blog-structured-data";
+import Navbar from "./navbar";
 
 const portableTextComponents = {
   types: {
@@ -166,7 +167,9 @@ export default function PostDetailClient({
       {/* Reading Progress Bar */}
       <ReadingProgress target=".prose" />
 
-      <div className="min-h-screen bg-white mt-32">
+      <Navbar variant="dark" />
+
+      <div className="min-h-screen bg-white pt-32">
         <div className="container mx-auto px-4 pb-20 max-w-2xl">
           <header className="text-center mb-12">
             <div className="my-4">
@@ -209,7 +212,7 @@ export default function PostDetailClient({
               ].map((item, idx) => (
                 <div
                   key={idx}
-                  className="flex flex-col items-center gap-2 w-full sm:w-auto px-4 sm:px-10 border-gray-200 sm:border-r sm:last:border-r-0"
+                  className="flex flex-col items-center gap-2 w-full sm:w-auto px-4 sm:px-10 sm:last:border-r-0"
                 >
                   <span className="uppercase tracking-wide text-xs">
                     {item.label}

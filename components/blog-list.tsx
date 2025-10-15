@@ -8,6 +8,7 @@ import { useLanguage } from "@/hooks/use-language";
 import { blogText } from "@/constants/blog-translations";
 import { MotionDiv } from "@/components/ui/motion-client";
 import { calculateReadTime } from "@/lib/utils";
+import Navbar from "./navbar";
 
 interface Post {
   _id: string;
@@ -46,6 +47,7 @@ export default function BlogList({ posts }: { posts: Post[] }) {
 
   return (
     <div className="min-h-screen bg-white">
+      <Navbar variant="dark" />
       {/* Header */}
       <section className="pt-32 pb-16">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -84,11 +86,11 @@ export default function BlogList({ posts }: { posts: Post[] }) {
                     className="group block"
                   >
                     <article className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 h-full border-2 border-slate-100/90">
-                      <div className="relative aspect-[4/3] bg-gradient-to-br from-blue-400 to-teal-400 overflow-hidden">
+                      <div className="relative aspect-[4/3] overflow-hidden">
                         <Image
                           alt={post.mainImage?.alt || post.title}
                           fill
-                          src={img || "/placeholder.svg"}
+                          src={img || "/assets/misc/placeholder.svg"}
                           sizes="(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw"
                           className="object-cover group-hover:scale-105 transition-transform duration-300"
                         />
