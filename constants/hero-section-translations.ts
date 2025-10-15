@@ -7,7 +7,7 @@ export const heroText = {
     viewServices: "View Our Services",
   },
   es: {
-    title: "Construyendo Productos que cumplan con los Objetivos de tu Negocio",
+    title: "Creamos Productos que escalan",
     description:
       "se adapta mejor para startups y empresas que están buscando construir productos que puedan ayudarles a lograr sus objetivos.",
     getStarted: "Comenzar ahora",

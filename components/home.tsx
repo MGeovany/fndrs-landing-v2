@@ -34,7 +34,7 @@ const Home = () => {
         className="absolute inset-0 z-0 w-screen h-full"
         style={{
           backgroundImage: `
-            url('/bg/bg-9.jpg')
+            url('/bg/bg-6.png')
           `,
           backgroundSize: "100% 100%",
 
@@ -51,16 +51,13 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-center justify-center"
           >
-            {/*  <div className="backdrop-filter-[12px] inline-flex h-7 items-center justify-between rounded-full border border-white/30 bg-white/10 px-3 text-xs text-white dark:text-black transition-all ease-in hover:cursor-pointer hover:bg-white/20 group gap-1 translate-y-[-1rem] animate-fade-in opacity-0 mx-auto mb-4">
-              <p className="mx-auto text-[14px] max-w-md  text-white/80 hover:text-white/100 ">
-                <span>✨ Success as a Service</span>
-              </p>
-            </div> */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white text-center">
-              {t.title}
+            <h1 className="text-4xl md:text-5xl lg:text-[80px] font-bold mb-6 text-center uppercase leading-tight lg:leading-[1.1]">
+              <span className="bg-gradient-to-b from-white from-50% to-transparent text-transparent bg-clip-text">
+                {t.title}
+              </span>
             </h1>
             <p
-              className="text-center w-full leading-loose text-white font-normal mb-8 max-w-xl mx-auto"
+              className="text-center w-full leading-loose text-white font-normal mb-8 max-w-xl mx-auto text-lg"
               data-lcp
             >
               <strong className="font-bold">FNDRS </strong>

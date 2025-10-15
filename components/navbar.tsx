@@ -11,16 +11,26 @@ import { useAnalytics } from "@/hooks/use-posthog";
 import Image from "next/image";
 import { AnimatePresence, MotionDiv, MotionHeader } from "./ui/motion-client";
 
-const Navbar = () => {
+interface NavbarProps {
+  variant?: "light" | "dark";
+}
+
+const Navbar = ({ variant = "light" }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
   const { language } = useLanguage();
   const { trackButtonClick } = useAnalytics();
   const t = navbarText[language as keyof typeof navbarText];
 
+  const textColor = variant === "dark" ? "text-black" : "text-white";
+  const borderColor = variant === "dark" ? "border-black" : "border-white";
+  const iconColor = variant === "dark" ? "text-black" : "text-white";
+
   return (
     <MotionHeader
-      className="absolute top-0 left-0 right-0 z-50"
+      className={`absolute top-0 left-0 right-0 z-50 ${
+        variant === "dark" ? "pb-4" : ""
+      }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -37,9 +47,13 @@ const Navbar = () => {
             alt="FNDRS logo"
             width={35}
             height={25}
-            className="h-4 w-auto object-cover"
+            className={`h-4 w-auto object-cover ${
+              variant === "dark" ? "invert" : ""
+            }`}
           />
-          <span className="pl-2 border-l border-white text-white">Agency</span>
+          <span className={`pl-2 border-l ${borderColor} ${textColor}`}>
+            Agency
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -50,9 +64,15 @@ const Navbar = () => {
               href={`/${language}/${href}`}
               className="group inline-block"
             >
-              <span className="relative inline-block text-sm font-semibold text-white transition-colors duration-200">
+              <span
+                className={`relative inline-block text-sm font-semibold ${textColor} transition-colors duration-200`}
+              >
                 {label}
-                <span className="absolute left-0 -bottom-1 block h-[4px] w-full bg-white transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                <span
+                  className={`absolute left-0 -bottom-1 block h-[4px] w-full ${
+                    variant === "dark" ? "bg-black" : "bg-white"
+                  } transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100`}
+                />
               </span>
             </Link>
           ))}
@@ -72,7 +92,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden"
+          className={`md:hidden ${iconColor}`}
           onClick={() => setIsOpen(!isOpen)}
           aria-label={
             isOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"

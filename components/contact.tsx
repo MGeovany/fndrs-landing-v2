@@ -11,6 +11,7 @@ import { useAnalytics, usePostHog } from "@/hooks/use-posthog";
 import axios from "axios";
 import { MotionDiv, MotionForm } from "./ui/motion-client";
 import { getContactFormSchema } from "@/schemas/contact-form.schema";
+import Navbar from "./navbar";
 
 const ContactForm = () => {
   const { language } = useLanguage();
@@ -113,7 +114,8 @@ const ContactForm = () => {
   console.log("Current form errors:", errors);
 
   return (
-    <section className="pb-20 pt-20 overflow-hidden">
+    <section className="pb-20 pt-24 overflow-hidden bg-white">
+      <Navbar variant="dark" />
       <MotionDiv
         className="max-w-2xl mx-auto px-4 py-12"
         initial={{ opacity: 0, y: 20 }}
