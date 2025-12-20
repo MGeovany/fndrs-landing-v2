@@ -19,7 +19,7 @@ export async function generateMetadata({
   return {
     title: "FNDRS - Make things with excellence",
     description:
-      "FNDRS is a creative agency that transforms ideas into innovative solutions.",
+      "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     alternates: {
       canonical: `${baseUrl}${langPrefix}`,
       languages: {

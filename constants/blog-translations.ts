@@ -2,11 +2,11 @@ export const blogText = {
   en: {
     sectionTitle: "Blog",
     description:
-      "Discover articles, ideas and news from FNDRS — the creative agency that turns ideas into innovative solutions.",
+      "Discover articles, ideas and news from FNDRS — a development team of software developers, designers, engineers, and experts ready to work on your projects.",
     meta: {
       title: "Blog | FNDRS",
       description:
-        "Discover articles, ideas and news from FNDRS — the creative agency that turns ideas into innovative solutions.",
+        "Discover articles, ideas and news from FNDRS — a development team of software developers, designers, engineers, and experts ready to work on your projects.",
       openGraph: {
         url: "https://thefndrs.com/en/blog",
         siteName: "FNDRS Blog",
@@ -42,11 +42,11 @@ export const blogText = {
   es: {
     sectionTitle: "Blog",
     description:
-      "Descubre artículos, ideas y novedades de FNDRS — la agencia creativa que transforma ideas en soluciones innovadoras.",
+      "Descubre artículos, ideas y novedades de FNDRS — un equipo de desarrollo formado por desarrolladores de software, diseñadores, ingenieros y expertos listos para trabajar en tus proyectos.",
     meta: {
       title: "Blog | FNDRS",
       description:
-        "Descubre artículos, ideas y novedades de FNDRS — la agencia creativa que transforma ideas en soluciones innovadoras.",
+        "Descubre artículos, ideas y novedades de FNDRS — un equipo de desarrollo formado por desarrolladores de software, diseñadores, ingenieros y expertos listos para trabajar en tus proyectos.",
       openGraph: {
         url: "https://thefndrs.com/es/blog",
         siteName: "Blog de FNDRS",
@@ -82,11 +82,11 @@ export const blogText = {
   ja: {
     sectionTitle: "ブログ",
     description:
-      "アイデアを革新的なソリューションに変えるクリエイティブエージェンシー FNDRS の記事、アイデア、最新情報をチェックしましょう。",
+      "FNDRSの記事、アイデア、最新情報をチェックしましょう—あなたのプロジェクトで働く準備ができたソフトウェア開発者、デザイナー、エンジニア、専門家の開発チーム。",
     meta: {
       title: "ブログ | FNDRS",
       description:
-        "アイデアを革新的なソリューションに変えるクリエイティブエージェンシー FNDRS の記事、アイデア、最新情報をチェックしましょう。",
+        "FNDRSの記事、アイデア、最新情報をチェックしましょう—あなたのプロジェクトで働く準備ができたソフトウェア開発者、デザイナー、エンジニア、専門家の開発チーム。",
       openGraph: {
         url: "https://thefndrs.com/ja/blog",
         siteName: "FNDRS ブログ",

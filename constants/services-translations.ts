@@ -1,97 +1,97 @@
 export const servicesText = {
   en: {
-    title: "Services we Offer",
+    title: "Our Team's Expertise",
     description:
-      "FNDRS covers to a wide range of clients, from small business to large enterprises, ensuring each project is tailored to meet the specific needs and goals of the clients.",
+      "We are a complete development team ready to work on any project. Companies can hire our whole pack instead of searching for developers separately. Our team includes developers, designers, software engineers, security experts, and cloud specialists.",
     services: [
       {
-        title: "Digital Strategy & Consulting",
+        title: "Software Developers",
         description:
-          "Our strategic consulting helps chart your digital transformation journey with clear roadmap and actionable insights.",
+          "Experienced developers ready to build and maintain applications across various technologies and frameworks.",
       },
       {
-        title: "Website & Mobile Development",
+        title: "UX/UI Designers",
         description:
-          "We create responsive websites and powerful mobile applications that engage users and drive conversions.",
+          "Creative designers who craft intuitive, engaging interfaces that enhance user experience and drive business results.",
       },
       {
-        title: "UX/UI Design",
+        title: "Software Engineers",
         description:
-          "Our user-centered design creates intuitive, engaging interfaces that enhance user satisfaction and business outcomes.",
+          "Senior engineers who architect scalable solutions, implement best practices, and ensure code quality and performance.",
       },
       {
-        title: "Technology Implementation",
+        title: "Cloud & DevOps Specialists",
         description:
-          "We implement cutting-edge technologies that automate processes and drive efficiency across your organization.",
+          "Experts in cloud infrastructure, deployment pipelines, and DevOps practices to ensure reliable and scalable systems.",
       },
       {
-        title: "Risk Mitigation & Security",
+        title: "Security Experts",
         description:
-          "We build robust security frameworks that protect your digital assets and ensure business continuity.",
+          "Cybersecurity specialists who build robust security frameworks, protect digital assets, and ensure compliance.",
       },
     ],
   },
   es: {
-    title: "Servicios que Ofrecemos",
+    title: "Expertise de Nuestro Equipo",
     description:
-      "FNDRS atiende a una amplia variedad de clientes, desde pequeños negocios hasta grandes empresas, asegurando que cada proyecto se adapte a sus necesidades y objetivos específicos.",
+      "Somos un equipo completo de desarrollo listo para trabajar en cualquier proyecto. Las empresas pueden contratar nuestro paquete completo en lugar de buscar desarrolladores por separado. Nuestro equipo incluye desarrolladores, diseñadores, ingenieros de software, expertos en seguridad y especialistas en la nube.",
     services: [
       {
-        title: "Estrategia Digital y Consultoría",
+        title: "Desarrolladores de Software",
         description:
-          "Nuestra consultoría estratégica traza el camino de tu transformación digital con un plan claro y recomendaciones prácticas.",
+          "Desarrolladores experimentados listos para construir y mantener aplicaciones en diversas tecnologías y frameworks.",
       },
       {
-        title: "Desarrollo Web y Móvil",
+        title: "Diseñadores UX/UI",
         description:
-          "Creamos sitios web responsivos y aplicaciones móviles que atraen usuarios y generan conversiones.",
+          "Diseñadores creativos que crean interfaces intuitivas y atractivas que mejoran la experiencia del usuario y generan resultados.",
       },
       {
-        title: "Diseño UX/UI",
+        title: "Ingenieros de Software",
         description:
-          "Diseñamos interfaces intuitivas y atractivas que mejoran la experiencia del usuario y los resultados del negocio.",
+          "Ingenieros senior que diseñan soluciones escalables, implementan mejores prácticas y aseguran calidad y rendimiento del código.",
       },
       {
-        title: "Implementación Tecnológica",
+        title: "Especialistas en Cloud & DevOps",
         description:
-          "Aplicamos tecnologías de vanguardia para automatizar procesos y mejorar la eficiencia en tu organización.",
+          "Expertos en infraestructura en la nube, pipelines de despliegue y prácticas DevOps para asegurar sistemas confiables y escalables.",
       },
       {
-        title: "Mitigación de Riesgos y Seguridad",
+        title: "Expertos en Seguridad",
         description:
-          "Construimos marcos de seguridad sólidos que protegen tus activos digitales y aseguran la continuidad del negocio.",
+          "Especialistas en ciberseguridad que construyen marcos de seguridad robustos, protegen activos digitales y aseguran cumplimiento.",
       },
     ],
   },
   ja: {
-    title: "私たちの提供するサービス",
+    title: "私たちのチームの専門知識",
     description:
-      "FNDRS は、小規模企業から大企業まで幅広いクライアントに対応し、各プロジェクトが特定のニーズと目標に合わせて調整されることを保証します。",
+      "私たちは、あらゆるプロジェクトで働く準備ができた完全な開発チームです。企業は開発者を個別に探すのではなく、私たちの完全なパックを雇うことができます。私たちのチームには、開発者、デザイナー、ソフトウェアエンジニア、セキュリティ専門家、クラウドスペシャリストが含まれています。",
     services: [
       {
-        title: "デジタル戦略とコンサルティング",
+        title: "ソフトウェア開発者",
         description:
-          "私たちの戦略的コンサルティングは、明確なロードマップと実行可能なインサイトでデジタル変革の旅を描きます。",
+          "さまざまなテクノロジーとフレームワークにわたってアプリケーションを構築および維持する準備ができた経験豊富な開発者。",
       },
       {
-        title: "ウェブサイトとモバイル開発",
+        title: "UX/UIデザイナー",
         description:
-          "レスポンシブなウェブサイトと強力なモバイルアプリを開発し、ユーザーのエンゲージメントとコンバージョンを促進します。",
+          "ユーザー体験を向上させ、ビジネス成果を促進する直感的で魅力的なインターフェースを作成する創造的なデザイナー。",
       },
       {
-        title: "UX/UIデザイン",
+        title: "ソフトウェアエンジニア",
         description:
-          "ユーザー中心のデザインで、直感的で魅力的なインターフェースを作成し、満足度とビジネス成果を向上させます。",
+          "スケーラブルなソリューションを設計し、ベストプラクティスを実装し、コードの品質とパフォーマンスを確保するシニアエンジニア。",
       },
       {
-        title: "テクノロジー実装",
+        title: "クラウド＆DevOpsスペシャリスト",
         description:
-          "最先端の技術を導入し、業務プロセスを自動化して組織全体の効率を高めます。",
+          "クラウドインフラストラクチャ、デプロイメントパイプライン、DevOpsプラクティスに精通した専門家で、信頼性が高くスケーラブルなシステムを確保します。",
       },
       {
-        title: "リスク軽減とセキュリティ",
+        title: "セキュリティ専門家",
         description:
-          "デジタル資産を保護し、ビジネスの継続性を確保する堅牢なセキュリティフレームワークを構築します。",
+          "堅牢なセキュリティフレームワークを構築し、デジタル資産を保護し、コンプライアンスを確保するサイバーセキュリティ専門家。",
       },
     ],
   },

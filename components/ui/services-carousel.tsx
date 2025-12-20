@@ -13,15 +13,16 @@ const ServiceCarousel: React.FC<ServiceCarouselProps> = ({
   className = "",
 }) => {
   const services = [
-    "Branding",
-    "Development",
-    "Agency",
-    "Brand Guideline",
-    "Website",
-    "Mobile",
+    "Software Development",
+    "Web Development",
+    "Mobile Development",
+    "Cloud Computing",
+    "Cybersecurity",
+    "DevOps",
     "UX/UI Design",
-    "Digital Strategy",
-    "Consulting",
+    "Full-Stack",
+    "Backend",
+    "Frontend",
   ];
 
   const allServices = [...services, ...services];

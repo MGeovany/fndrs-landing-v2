@@ -2,9 +2,9 @@ export const footerText = {
   en: {
     collaborationNote: "Open for any collaboration",
     consultationTitle:
-      "Book a free consultation now to discover how we can help your business to thrive!",
+      "Hire our development team now to work on your project!",
     introParagraph:
-      "Ready to elevate your digital presence? Contact us to discuss how FNDRS can turn your ideas into visually captivating realities that drive results.",
+      "Ready to hire a complete development team? Contact us to discuss how FNDRS can provide you with developers, designers, engineers, and experts ready to work on your project.",
     cta: "Get started today",
     contactEmail: "Email address",
     contactLabel: "contact@fndrs.com",
@@ -32,9 +32,9 @@ export const footerText = {
   es: {
     collaborationNote: "Abiertos a cualquier colaboración",
     consultationTitle:
-      "Agenda una consulta gratuita para descubrir cómo podemos ayudar a que tu negocio prospere.",
+      "¡Contrata nuestro equipo de desarrollo ahora para trabajar en tu proyecto!",
     introParagraph:
-      "¿Listo para potenciar tu presencia digital? Contáctanos para conversar sobre cómo FNDRS puede convertir tus ideas en realidades visualmente impactantes que generen resultados.",
+      "¿Listo para contratar un equipo completo de desarrollo? Contáctanos para conversar sobre cómo FNDRS puede proporcionarte desarrolladores, diseñadores, ingenieros y expertos listos para trabajar en tu proyecto.",
     cta: "Empezar ahora",
     contactEmail: "Correo electrónico",
     contactLabel: "contacto@fndrs.com",
@@ -62,9 +62,9 @@ export const footerText = {
   ja: {
     collaborationNote: "どんなコラボレーションでも歓迎します",
     consultationTitle:
-      "無料相談を予約して、貴社の成功にどう貢献できるかをご確認ください！",
+      "今すぐ私たちの開発チームを雇って、あなたのプロジェクトで働きましょう！",
     introParagraph:
-      "デジタルプレゼンスを高める準備はできていますか？FNDRSがあなたのアイデアを視覚的に魅力的な成果に変える方法をご紹介します。",
+      "完全な開発チームを雇う準備はできていますか？お気軽にご連絡ください。FNDRSがあなたに開発者、デザイナー、エンジニア、専門家のチームを提供し、プロジェクトで働く準備ができています。",
     cta: "今すぐ始める",
     contactEmail: "メールアドレス",
     contactLabel: "contact@fndrs.com",

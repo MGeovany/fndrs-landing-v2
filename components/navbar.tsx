@@ -52,7 +52,7 @@ const Navbar = ({ variant = "light" }: NavbarProps) => {
             }`}
           />
           <span className={`pl-2 border-l ${borderColor} ${textColor}`}>
-            Agency
+            Dev Team
           </span>
         </Link>
 

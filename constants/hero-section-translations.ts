@@ -1,23 +1,23 @@
 export const heroText = {
   en: {
-    title: "Building Products that fulfill your Business Goals",
+    title: "We Build Together",
     description:
-      "fits best for early stage startups and businesses that are looking to build products that can help them achieve their goals.",
-    getStarted: "Get Started",
-    viewServices: "View Our Services",
+      "Developers, designers, engineers, security experts, and cloud specialists—ready to work. Skip the search. Get the full squad.",
+    getStarted: "Hire Our Team",
+    viewServices: "Our Capabilities",
   },
   es: {
-    title: "Creamos Productos que escalan",
+    title: "Construimos Juntos",
     description:
-      "se adapta mejor para startups y empresas que están buscando construir productos que puedan ayudarles a lograr sus objetivos.",
-    getStarted: "Comenzar ahora",
-    viewServices: "Ver nuestros servicios",
+      "Desarrolladores, diseñadores, ingenieros, expertos en seguridad y especialistas en la nube—listos para trabajar. Salta la búsqueda. Obtén el equipo completo.",
+    getStarted: "Contrata Nuestro Equipo",
+    viewServices: "Nuestras Capacidades",
   },
   ja: {
-    title: "ビジネス目標を達成するための製品を構築する",
+    title: "あなたのプロジェクトで働く準備ができた開発チーム",
     description:
-      "適しているのは、早期段階のスタートアップと、目標を達成するための製品を探している企業です。",
-    getStarted: "今すぐ始める",
-    viewServices: "サービスを見る",
+      "私たちは、ソフトウェア開発者、デザイナー、エンジニア、セキュリティ専門家、クラウドスペシャリストの完全なチームです。あなたのプロジェクトに参加する準備ができています。別々に探す必要はありません—完全なパックとして私たちを雇ってください。",
+    getStarted: "チームを雇う",
+    viewServices: "私たちの能力",
   },
 };

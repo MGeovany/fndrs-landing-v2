@@ -6,7 +6,7 @@ const SchemaMarkup = () => {
     url: "https://www.thefndrs.com",
     logo: "https://www.thefndrs.com/_next/image?url=%2Ffndrs-logo.webp&w=128&q=75",
     description:
-      "FNDRS is a creative studio that transforms ideas into innovative solutions.",
+      "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     sameAs: [
       "https://twitter.com/FNDRS",
       "https://www.linkedin.com/company/FNDRS",

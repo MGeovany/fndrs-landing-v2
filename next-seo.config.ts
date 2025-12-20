@@ -3,7 +3,7 @@ import { Metadata } from "next";
 const SEO: Metadata = {
   title: "FNDRS - Make things with excellence",
   description:
-    "FNDRS is a creative agency that transforms ideas into innovative solutions.",
+    "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
   metadataBase: new URL("https://www.thefndrs.com"),
   openGraph: {
     type: "website",
@@ -12,7 +12,7 @@ const SEO: Metadata = {
     siteName: "FNDRS",
     title: "FNDRS - Make things with excellence",
     description:
-      "FNDRS is a creative agency that transforms ideas into innovative solutions.",
+      "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     images: [
       {
         url: "https://www.thefndrs.com/og.png",
@@ -28,7 +28,7 @@ const SEO: Metadata = {
     creator: "@FNDRS",
     title: "FNDRS - Make things with excellence",
     description:
-      "FNDRS is a creative agency that transforms ideas into innovative solutions.",
+      "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     images: [
       {
         url: "https://www.thefndrs.com/og.png",

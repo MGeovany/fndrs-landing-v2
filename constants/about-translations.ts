@@ -1,58 +1,58 @@
 export const aboutText = {
   en: {
-    title: "FNDRS's Solutions Surpass Expectations",
+    title: "A Trained Team Ready for Any Project",
     description:
-      "We are your partner in crafting digital brilliance. Our expertise spans across multiple domains to deliver exceptional results.",
+      "We are a complete development team of software developers, designers, engineers, security experts, and cloud specialists. We're ready to work on your project and deliver exceptional results.",
     cards: [
       {
-        heading: "Passionate Creators",
-        text: "We are a team of visionary creators, strategists, and innovators. With a deep passion for design and technology.",
+        heading: "Experienced Developers",
+        text: "Our team includes skilled software developers proficient in multiple technologies and frameworks, ready to build and maintain your applications.",
       },
       {
-        heading: "Innovators",
-        text: "We constantly push the boundaries of what's possible, bringing fresh ideas and innovative solutions to every project.",
+        heading: "Complete Expertise",
+        text: "We bring together developers, designers, software engineers, security experts, and cloud specialists—everything you need in one team.",
       },
       {
-        heading: "Visionaries",
-        text: "We don't just solve today's problems – we anticipate tomorrow's challenges and prepare your business for the future.",
+        heading: "Ready to Work",
+        text: "We're trained, prepared, and ready to join your project immediately. No lengthy hiring process—just a complete team ready to deliver.",
       },
     ],
   },
   es: {
-    title: "Las soluciones de FNDRS superan las expectativas",
+    title: "Un Equipo Entrenado Listo para Cualquier Proyecto",
     description:
-      "Somos tu socio en la creación de excelencia digital. Nuestra experiencia abarca múltiples dominios para ofrecer resultados excepcionales.",
+      "Somos un equipo completo de desarrollo formado por desarrolladores de software, diseñadores, ingenieros, expertos en seguridad y especialistas en la nube. Estamos listos para trabajar en tu proyecto y entregar resultados excepcionales.",
     cards: [
       {
-        heading: "Creadores apasionados",
-        text: "Somos un equipo de creadores, estrategas e innovadores visionarios. Con una profunda pasión por el diseño y la tecnología.",
+        heading: "Desarrolladores Experimentados",
+        text: "Nuestro equipo incluye desarrolladores de software hábiles y competentes en múltiples tecnologías y frameworks, listos para construir y mantener tus aplicaciones.",
       },
       {
-        heading: "Innovadores",
-        text: "Constantemente desafiamos los límites de lo posible, aportando ideas frescas y soluciones innovadoras a cada proyecto.",
+        heading: "Expertise Completa",
+        text: "Reunimos desarrolladores, diseñadores, ingenieros de software, expertos en seguridad y especialistas en la nube—todo lo que necesitas en un solo equipo.",
       },
       {
-        heading: "Visionarios",
-        text: "No solo resolvemos los problemas de hoy, anticipamos los desafíos del mañana y preparamos tu negocio para el futuro.",
+        heading: "Listos para Trabajar",
+        text: "Estamos entrenados, preparados y listos para unirnos a tu proyecto inmediatamente. Sin procesos largos de contratación—solo un equipo completo listo para entregar.",
       },
     ],
   },
   ja: {
-    title: "FNDRSのソリューションは期待を超える",
+    title: "あらゆるプロジェクトに対応できる訓練されたチーム",
     description:
-      "私たちはデジタルの輝きを形にするパートナーです。多様な分野にわたる専門知識を活かし、卓越した成果を提供します。",
+      "私たちは、ソフトウェア開発者、デザイナー、エンジニア、セキュリティ専門家、クラウドスペシャリストの完全な開発チームです。あなたのプロジェクトで働き、卓越した結果を提供する準備ができています。",
     cards: [
       {
-        heading: "情熱的なクリエイター",
-        text: "私たちはビジョンを持つクリエイター、戦略家、イノベーターのチームです。デザインとテクノロジーへの深い情熱があります。",
+        heading: "経験豊富な開発者",
+        text: "私たちのチームには、複数のテクノロジーとフレームワークに精通した熟練したソフトウェア開発者が含まれており、アプリケーションを構築および維持する準備ができています。",
       },
       {
-        heading: "革新者",
-        text: "常に可能性の限界を押し広げ、新しいアイデアと革新的なソリューションをあらゆるプロジェクトにもたらします。",
+        heading: "完全な専門知識",
+        text: "開発者、デザイナー、ソフトウェアエンジニア、セキュリティ専門家、クラウドスペシャリストを1つのチームに集めます—あなたが必要とするすべてが1つのチームにあります。",
       },
       {
-        heading: "ビジョナリー",
-        text: "今日の問題を解決するだけでなく、明日の課題を予測し、あなたのビジネスを未来に備えます。",
+        heading: "働く準備ができている",
+        text: "私たちは訓練され、準備が整い、すぐにあなたのプロジェクトに参加する準備ができています。長い採用プロセスはありません—提供する準備ができた完全なチームだけです。",
       },
     ],
   },
