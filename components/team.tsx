@@ -58,13 +58,6 @@ const TeamMember = ({
 
   const handleMouseEnter = () => {
     setIsHovering(true);
-    if (videoRef.current) {
-      try {
-        videoRef.current.currentTime = 0;
-        // play silently on hover
-        videoRef.current.play().catch(() => {});
-      } catch {}
-    }
   };
 
   const handleMouseLeave = () => {
@@ -104,9 +97,7 @@ const TeamMember = ({
           alt={name}
           width={240}
           height={256}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${
-            isHovering && video ? "opacity-0" : "opacity-100"
-          }`}
+          className="absolute inset-0 w-full h-full object-cover"
         />
 
         {/* Hover video preview */}
@@ -117,9 +108,7 @@ const TeamMember = ({
             playsInline
             loop
             preload="metadata"
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${
-              isHovering ? "opacity-100" : "opacity-0"
-            }`}
+            className="absolute inset-0 w-full h-full object-cover opacity-0 pointer-events-none"
           >
             <source src={video} type="video/mp4" />
           </video>
