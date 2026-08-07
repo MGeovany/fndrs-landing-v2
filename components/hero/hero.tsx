@@ -1,13 +1,16 @@
 "use client";
 
 import {
+  Fragment,
   useCallback,
   useEffect,
   useMemo,
   useRef,
+  useState,
   type ReactNode,
 } from "react";
 import { useRouter } from "next/navigation";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { useLanguage } from "@/hooks/use-language";
 import { useAnalytics } from "@/hooks/use-posthog";
 import { heroText } from "@/constants/hero-section-translations";
@@ -31,6 +34,21 @@ function useMouse() {
     return () => window.removeEventListener("pointermove", onMove);
   }, []);
   return ref;
+}
+
+// True only on devices with a real, hoverable pointer (mouse/trackpad).
+// Guards the custom cursor and the magnetic buttons, which are meaningless
+// on touch and leave a stray glow pinned at the top-left corner.
+function useFinePointer() {
+  const [fine, setFine] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: hover) and (pointer: fine)");
+    const sync = () => setFine(mq.matches);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
+  return fine;
 }
 
 function useRaf(cb: (t: number) => void) {
@@ -253,15 +271,19 @@ function Particles({
 function MagneticButton({
   children,
   primary,
+  icon,
   onClick,
 }: {
   children: ReactNode;
   primary?: boolean;
+  icon: ReactNode;
   onClick?: () => void;
 }) {
   const ref = useRef<HTMLButtonElement | null>(null);
   const textRef = useRef<HTMLSpanElement | null>(null);
+  const finePointer = useFinePointer();
   useEffect(() => {
+    if (!finePointer) return;
     const el = ref.current;
     const txt = textRef.current;
     if (!el || !txt) return;
@@ -281,8 +303,10 @@ function MagneticButton({
     return () => {
       el.removeEventListener("pointermove", onMove);
       el.removeEventListener("pointerleave", onLeave);
+      el.style.transform = "";
+      txt.style.transform = "";
     };
-  }, []);
+  }, [finePointer]);
   return (
     <button
       ref={ref}
@@ -292,8 +316,10 @@ function MagneticButton({
       type="button"
     >
       <span ref={textRef} className="mag-btn-inner">
-        {children}
-        <span className="mag-btn-arrow">↗</span>
+        <span className="mag-btn-label">{children}</span>
+        <span className="mag-btn-arrow" aria-hidden="true">
+          {icon}
+        </span>
       </span>
     </button>
   );
@@ -303,22 +329,42 @@ function MagneticButton({
 function Headline({ lines }: { lines: { text: string; variant?: "accent" | "bold" }[] }) {
   return (
     <h1 className="headline">
-      {lines.map((line, li) => (
-        <span
-          key={li}
-          className={`hl-line${line.variant ? " " + line.variant : ""}`}
-        >
-          {[...line.text].map((ch, i) => (
-            <span
-              key={i}
-              className="hl-ch"
-              style={{ animationDelay: `${li * 0.15 + i * 0.025}s` }}
-            >
-              {ch === " " ? " " : ch}
-            </span>
-          ))}
-        </span>
-      ))}
+      {lines.map((line, li) => {
+        // Group the characters of each word inside an `hl-word` wrapper. Every
+        // `hl-ch` is an inline-block, so without the grouping a narrow viewport
+        // breaks the headline mid-word instead of between words.
+        const words = line.text.split(" ");
+        let charOffset = 0;
+        return (
+          <span
+            key={li}
+            className={`hl-line${line.variant ? " " + line.variant : ""}`}
+          >
+            {words.map((word, wi) => {
+              const start = charOffset;
+              charOffset += word.length + 1;
+              return (
+                <Fragment key={wi}>
+                  {wi > 0 ? " " : null}
+                  <span className="hl-word">
+                    {[...word].map((ch, ci) => (
+                      <span
+                        key={ci}
+                        className="hl-ch"
+                        style={{
+                          animationDelay: `${li * 0.15 + (start + ci) * 0.025}s`,
+                        }}
+                      >
+                        {ch}
+                      </span>
+                    ))}
+                  </span>
+                </Fragment>
+              );
+            })}
+          </span>
+        );
+      })}
     </h1>
   );
 }
@@ -370,6 +416,7 @@ export default function Hero() {
   const { language } = useLanguage();
   const { trackButtonClick } = useAnalytics();
   const mouseRef = useMouse();
+  const finePointer = useFinePointer();
 
   const t = heroText[language as keyof typeof heroText] ?? heroText.es;
 
@@ -383,10 +430,13 @@ export default function Hero() {
   );
 
   return (
-    <section className="fndrs-hero centered" data-cursor="on">
+    <section
+      className="fndrs-hero centered"
+      data-cursor={finePointer ? "on" : "off"}
+    >
       <ReactiveGrid mouseRef={mouseRef} />
       <Particles mouseRef={mouseRef} intensity={1} />
-      <Cursor mouseRef={mouseRef} />
+      {finePointer && <Cursor mouseRef={mouseRef} />}
 
       <Navbar />
 
@@ -408,6 +458,7 @@ export default function Hero() {
           <div className="cta-row">
             <MagneticButton
               primary
+              icon={<ArrowUpRight strokeWidth={2.5} />}
               onClick={() => {
                 trackButtonClick("get_started", "hero_section");
                 router.push(`/${language}/contact`);
@@ -416,6 +467,7 @@ export default function Hero() {
               {t.ctaPrimary}
             </MagneticButton>
             <MagneticButton
+              icon={<ArrowDown strokeWidth={2.5} />}
               onClick={() => {
                 trackButtonClick("view_services", "hero_section");
                 router.push(`/${language}/#services`);

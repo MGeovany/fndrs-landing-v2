@@ -17,7 +17,11 @@
 
   position: relative;
   min-height: 100vh;
+  /* svh tracks the *small* viewport, so mobile browser chrome can't push the
+     bottom of the hero out of view. */
+  min-height: 100svh;
   width: 100%;
+  max-width: 100%;
   background: var(--bg);
   color: var(--ink);
   font-family: var(
@@ -131,8 +135,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 32px;
-  padding: 32px 48px 0;
+  padding: 96px 48px 72px;
   min-height: 100vh;
+  min-height: 100svh;
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -141,7 +146,7 @@
   position: relative;
   z-index: 4;
   width: 100%;
-  max-width: 1200px;
+  max-width: min(1200px, 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,16 +179,22 @@
 .fndrs-hero .headline {
   font-family: var(--font-display, "Space Grotesk", sans-serif);
   font-weight: 600;
-  font-size: clamp(48px, 6.8vw, 112px);
+  font-size: clamp(34px, 6.8vw, 112px);
   line-height: 0.92;
   letter-spacing: -0.035em;
   margin: 28px 0 24px;
   white-space: nowrap;
+  max-width: 100%;
 }
 .fndrs-hero .hl-line {
   display: block;
   overflow: hidden;
   padding-bottom: 0.04em;
+}
+/* Keeps a wrapped headline breaking between words, never mid-word. */
+.fndrs-hero .hl-word {
+  display: inline-block;
+  white-space: nowrap;
 }
 .fndrs-hero .hl-ch {
   display: inline-block;
@@ -279,17 +290,27 @@
 .fndrs-hero .mag-btn-arrow {
   display: inline-grid;
   place-items: center;
+  flex: 0 0 auto;
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: currentColor;
+  /* Was `background: currentColor` with `color: #0a0908` on the same element —
+     currentColor resolves to that very color, so the ghost button rendered a
+     dark disc holding a dark icon (invisible). Set both explicitly. */
+  background: var(--ink);
   color: #0a0908;
-  font-size: 12px;
-  font-weight: 700;
-  transition: transform 0.3s;
+  transition:
+    transform 0.3s,
+    background 0.2s,
+    color 0.2s;
+}
+.fndrs-hero .mag-btn-arrow svg {
+  width: 13px;
+  height: 13px;
+  display: block;
 }
 .fndrs-hero .mag-btn:hover .mag-btn-arrow {
-  transform: rotate(-45deg) scale(1.1);
+  transform: scale(1.12);
 }
 
 .fndrs-hero .mag-btn.primary {
@@ -308,6 +329,10 @@
 .fndrs-hero .mag-btn.ghost:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+.fndrs-hero .mag-btn.ghost:hover .mag-btn-arrow {
+  background: var(--accent);
+  color: #1a0a04;
 }
 
 /* META PILLS */
@@ -622,15 +647,108 @@
 @media (max-width: 1100px) {
   .fndrs-hero .hero-grid {
     grid-template-columns: 1fr;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .fndrs-hero .hero-right {
     min-height: 460px;
     height: 60vh;
   }
 }
+
+/* Below this width the headline can no longer stay on one line — let it wrap
+   between words instead of being clipped by the hero's `overflow: hidden`. */
+@media (max-width: 900px) {
+  .fndrs-hero .headline {
+    white-space: normal;
+    text-wrap: balance;
+    font-size: clamp(34px, 9vw, 64px);
+  }
+  .fndrs-hero .hl-line.bold {
+    font-size: clamp(34px, 11vw, 76px);
+  }
+  /* Mask the reveal per word, since a wrapped line spans several rows. */
+  .fndrs-hero .hl-line {
+    overflow: visible;
+  }
+  .fndrs-hero .hl-word {
+    overflow: hidden;
+  }
+}
+
 @media (max-width: 720px) {
   .fndrs-hero .hero-grid {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 88px 20px 76px;
+  }
+  .fndrs-hero .headline {
+    margin: 22px 0 20px;
+  }
+  .fndrs-hero .sub {
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  .fndrs-hero .cta-row {
+    margin-bottom: 32px;
+  }
+  .fndrs-hero .eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+  }
+  .fndrs-hero .meta-pill {
+    padding: 8px 12px;
+  }
+}
+
+/* Stack the CTAs — side by side they overflow a 360px viewport. */
+@media (max-width: 480px) {
+  .fndrs-hero .cta-row {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .fndrs-hero .mag-btn {
+    width: 100%;
+    padding: 16px 22px;
+  }
+  .fndrs-hero .mag-btn-inner {
+    justify-content: center;
+  }
+  .fndrs-hero .meta-row {
+    gap: 8px;
+  }
+  .fndrs-hero .scroll-cue {
+    bottom: 14px;
+  }
+  .fndrs-hero .sc-line {
+    width: 24px;
+  }
+}
+
+/* Touch devices never move the magnetic buttons or the custom cursor, so drop
+   the hover-only affordances rather than leaving them stuck mid-transform. */
+@media (hover: none), (pointer: coarse) {
+  .fndrs-hero,
+  .fndrs-hero * {
+    cursor: auto !important;
+  }
+  .fndrs-hero .mag-btn,
+  .fndrs-hero .mag-btn-inner {
+    transform: none !important;
+  }
+  .fndrs-hero .mag-btn:active {
+    transform: scale(0.98) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fndrs-hero .hl-ch,
+  .fndrs-hero .meta-dot,
+  .fndrs-hero .sc-line::after,
+  .fndrs-hero .chip {
+    animation: none !important;
+  }
+  .fndrs-hero .headline:hover .hl-ch {
+    animation: none !important;
   }
 }
