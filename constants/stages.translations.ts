@@ -32,7 +32,7 @@ export const stagesText = {
         step: 5,
         title: "Deployment",
         description:
-          "We handle deployment to production end to end—configuration, security measures and monitoring—so your solution runs stably from its first day live.",
+          "We handle deployment to production end to end: configuration, security measures and monitoring, so your solution runs stably from its first day live.",
       },
       {
         step: 6,

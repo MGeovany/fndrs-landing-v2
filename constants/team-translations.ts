@@ -77,7 +77,7 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
       {
         name: memberUnchangedData[2].name,
         role: "Software Engineer & Project Manager",
-        bio: "Leads software delivery at FNDRS, combining technical expertise and operational leadership. Experienced in building scalable web and mobile applications. He bridges product, delivery, and engineering—setting roadmaps, aligning teams, and managing stakeholder communication across cross-functional squads.",
+        bio: "Leads software delivery at FNDRS, combining technical expertise and operational leadership. Experienced in building scalable web and mobile applications. He bridges product, delivery, and engineering, setting roadmaps, aligning teams, and managing stakeholder communication across cross-functional squads.",
         image: memberUnchangedData[2].image,
         linkedin: memberUnchangedData[2].linkedin,
         github: memberUnchangedData[2].github,

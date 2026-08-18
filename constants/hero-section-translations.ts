@@ -41,7 +41,7 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
       { num: "14d", label: "avg. ship time" },
       { num: "allonsapp.com", label: "building now", href: "https://allonsapp.com" },
     ],
-    metaLive: "2 spots open — Q3 2026",
+    metaLive: "2 spots open · Q3 2026",
     marquee: [
       "4 active squads",
       "12 products in production",
@@ -58,7 +58,7 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
   es: {
     title: "Construimos Juntos",
     description:
-      "Desarrolladores, diseñadores, ingenieros, expertos en seguridad y especialistas en la nube—listos para trabajar.",
+      "Desarrolladores, diseñadores, ingenieros, expertos en seguridad y especialistas en la nube, listos para trabajar.",
     getStarted: "Contrata Nuestro Equipo",
     viewServices: "Nuestras Capacidades",
 
@@ -74,7 +74,7 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
       { num: "14d", label: "ship promedio" },
       { num: "allonsapp.com", label: "building now", href: "https://allonsapp.com" },
     ],
-    metaLive: "2 spots disponibles — Q3 2026",
+    metaLive: "2 spots disponibles · Q3 2026",
     marquee: [
       "4 squads activos",
       "12 productos en producción",
@@ -107,7 +107,7 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
       { num: "14d", label: "平均出荷" },
       { num: "allonsapp.com", label: "開発中", href: "https://allonsapp.com" },
     ],
-    metaLive: "Q3 — 残り2枠",
+    metaLive: "Q3 · 残り2枠",
     marquee: [
       "稼働中スクワッド 4",
       "本番運用中 12プロダクト",

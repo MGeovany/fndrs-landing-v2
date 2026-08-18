@@ -2,7 +2,7 @@ export const servicesText = {
   en: {
     title: "Our Team's Expertise",
     description:
-      "A complete development team you can hire as one pack—developers, designers, engineers, security and cloud specialists.",
+      "A complete development team you can hire as one pack: developers, designers, engineers, security and cloud specialists.",
     services: [
       {
         title: "Software Developers",

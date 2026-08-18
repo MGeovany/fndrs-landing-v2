@@ -1,7 +1,7 @@
 export const whyUsText = {
   en: {
     heading: "Why Hire Our Team?",
-    quote: "A Complete Team Ready to Work—No Need to Search Separately",
+    quote: "A Complete Team Ready to Work. No Need to Search Separately",
     ctaTitle: "Hire Our Team Right Now!!!",
     ctaButton: "Get Started",
     reasons: [
@@ -15,7 +15,7 @@ export const whyUsText = {
         number: "2",
         title: "Trained and Ready to Work",
         description:
-          "Trained, prepared and productive from day one—no ramp-up before your project moves.",
+          "Trained, prepared and productive from day one, with no ramp-up before your project moves.",
       },
       {
         number: "3",
@@ -46,7 +46,7 @@ export const whyUsText = {
   es: {
     heading: "¿Por qué contratar nuestro equipo?",
     quote:
-      "Un Equipo Completo Listo para Trabajar—No Necesitas Buscar por Separado",
+      "Un Equipo Completo Listo para Trabajar. No Necesitas Buscar por Separado",
     ctaTitle: "¡Contrata Nuestro Equipo Ahora Mismo!",
     ctaButton: "Empezar",
     reasons: [
@@ -90,7 +90,7 @@ export const whyUsText = {
   },
   ja: {
     heading: "なぜ私たちのチームを雇うのか？",
-    quote: "完全なチームが働く準備ができている—別々に探す必要はない",
+    quote: "完全なチームが働く準備ができている。別々に探す必要はない",
     ctaTitle: "今すぐ私たちのチームを雇おう！",
     ctaButton: "始める",
     reasons: [

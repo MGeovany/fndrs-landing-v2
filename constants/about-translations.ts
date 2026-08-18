@@ -10,11 +10,11 @@ export const aboutText = {
       },
       {
         heading: "Complete Expertise",
-        text: "We bring together developers, designers, software engineers, security experts, and cloud specialists—everything you need in one team.",
+        text: "We bring together developers, designers, software engineers, security experts, and cloud specialists: everything you need in one team.",
       },
       {
         heading: "Ready to Work",
-        text: "We're trained, prepared, and ready to join your project immediately. No lengthy hiring process—just a complete team ready to deliver.",
+        text: "We're trained, prepared, and ready to join your project immediately. No lengthy hiring process, just a complete team ready to deliver.",
       },
     ],
   },
@@ -29,11 +29,11 @@ export const aboutText = {
       },
       {
         heading: "Expertise Completa",
-        text: "Reunimos desarrolladores, diseñadores, ingenieros de software, expertos en seguridad y especialistas en la nube—todo lo que necesitas en un solo equipo.",
+        text: "Reunimos desarrolladores, diseñadores, ingenieros de software, expertos en seguridad y especialistas en la nube: todo lo que necesitas en un solo equipo.",
       },
       {
         heading: "Listos para Trabajar",
-        text: "Estamos entrenados, preparados y listos para unirnos a tu proyecto inmediatamente. Sin procesos largos de contratación—solo un equipo completo listo para entregar.",
+        text: "Estamos entrenados, preparados y listos para unirnos a tu proyecto inmediatamente. Sin procesos largos de contratación, solo un equipo completo listo para entregar.",
       },
     ],
   },
@@ -48,11 +48,11 @@ export const aboutText = {
       },
       {
         heading: "完全な専門知識",
-        text: "開発者、デザイナー、ソフトウェアエンジニア、セキュリティ専門家、クラウドスペシャリストを1つのチームに集めます—あなたが必要とするすべてが1つのチームにあります。",
+        text: "開発者、デザイナー、ソフトウェアエンジニア、セキュリティ専門家、クラウドスペシャリストを1つのチームに集めます。あなたが必要とするすべてが1つのチームにあります。",
       },
       {
         heading: "働く準備ができている",
-        text: "私たちは訓練され、準備が整い、すぐにあなたのプロジェクトに参加する準備ができています。長い採用プロセスはありません—提供する準備ができた完全なチームだけです。",
+        text: "私たちは訓練され、準備が整い、すぐにあなたのプロジェクトに参加する準備ができています。長い採用プロセスはありません。提供する準備ができた完全なチームだけです。",
       },
     ],
   },
