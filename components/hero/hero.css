@@ -155,8 +155,7 @@
 .fndrs-hero .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 16px 8px 12px;
+  padding: 8px 16px;
   border: 1px solid var(--line);
   border-radius: 999px;
   font-family: var(--font-mono, "JetBrains Mono", monospace);
@@ -167,14 +166,6 @@
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(8px);
 }
-.fndrs-hero .eyebrow-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 8px var(--accent);
-}
-
 /* HEADLINE */
 .fndrs-hero .headline {
   font-family: var(--font-display, "Space Grotesk", sans-serif);

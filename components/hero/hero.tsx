@@ -428,7 +428,6 @@ export default function Hero() {
       <div className="hero-grid">
         <div className="hero-left">
           <div className="eyebrow">
-            <span className="eyebrow-dot" />
             <span>{t.eyebrow}</span>
           </div>
 
