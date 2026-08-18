@@ -325,43 +325,28 @@ function MagneticButton({
   );
 }
 
-// ─── Headline with letter-by-letter reveal ────────────────────────────────
+// ─── Headline with line reveal ────────────────────────────────────────────
 function Headline({ lines }: { lines: { text: string; variant?: "accent" | "bold" }[] }) {
   return (
     <h1 className="headline">
       {lines.map((line, li) => {
-        // Group the characters of each word inside an `hl-word` wrapper. Every
-        // `hl-ch` is an inline-block, so without the grouping a narrow viewport
-        // breaks the headline mid-word instead of between words.
-        const words = line.text.split(" ");
-        let charOffset = 0;
+        // Words are wrapped in `hl-word` inline-blocks so a narrow viewport
+        // breaks the headline between words, never mid-word. Every word in a
+        // line shares one delay, so the whole line rises as a single block.
+        const delay = `${li * 0.12}s`;
         return (
           <span
             key={li}
             className={`hl-line${line.variant ? " " + line.variant : ""}`}
           >
-            {words.map((word, wi) => {
-              const start = charOffset;
-              charOffset += word.length + 1;
-              return (
-                <Fragment key={wi}>
-                  {wi > 0 ? " " : null}
-                  <span className="hl-word">
-                    {[...word].map((ch, ci) => (
-                      <span
-                        key={ci}
-                        className="hl-ch"
-                        style={{
-                          animationDelay: `${li * 0.15 + (start + ci) * 0.025}s`,
-                        }}
-                      >
-                        {ch}
-                      </span>
-                    ))}
-                  </span>
-                </Fragment>
-              );
-            })}
+            {line.text.split(" ").map((word, wi) => (
+              <Fragment key={wi}>
+                {wi > 0 ? " " : null}
+                <span className="hl-word" style={{ animationDelay: delay }}>
+                  {word}
+                </span>
+              </Fragment>
+            ))}
           </span>
         );
       })}
@@ -479,11 +464,6 @@ export default function Hero() {
 
           <MetaPills pills={t.metaPills} livePill={t.metaLive} />
         </div>
-      </div>
-
-      <div className="scroll-cue">
-        <span className="sc-line" />
-        <span className="sc-label">{t.scrollCue}</span>
       </div>
     </section>
   );

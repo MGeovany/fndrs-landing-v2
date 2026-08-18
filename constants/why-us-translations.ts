@@ -11,37 +11,37 @@ export const whyUsText = {
         number: "1",
         title: "Complete Team in One Package",
         description:
-          "Get developers, designers, software engineers, security experts, and cloud specialists all in one team. No need to search and hire separately—we're your whole pack.",
+          "Developers, designers, security experts and cloud specialists in one team. No separate hires needed.",
       },
       {
         number: "2",
         title: "Trained and Ready to Work",
         description:
-          "We're not just available—we're trained, prepared, and ready to start working on your project immediately. Hit the ground running from day one.",
+          "Trained, prepared and productive from day one—no ramp-up before your project moves.",
       },
       {
         number: "3",
         title: "Versatile Expertise",
         description:
-          "Our team handles everything from frontend to backend, design to deployment, security to cloud infrastructure. We adapt to any project requirement.",
+          "Frontend to backend, design to deployment, security to cloud. We adapt to any requirement.",
       },
       {
         number: "4",
         title: "Expert in Modern Technologies",
         description:
-          "We work with cutting-edge technologies including AI, cloud platforms, DevOps practices, and modern frameworks to build scalable, future-ready solutions.",
+          "AI, cloud platforms, DevOps and modern frameworks for scalable, future-ready solutions.",
       },
       {
         number: "5",
         title: "Dedicated Partnership",
         description:
-          "We integrate with your team and work as dedicated partners. Our commitment extends beyond delivery—we ensure ongoing optimization and support as your project evolves.",
+          "We integrate with your team and stay past delivery, optimizing and supporting as you grow.",
       },
       {
         number: "6",
         title: "Transparent Communication & Reliable Support",
         description:
-          "Clear communication and reliability are our foundation. Regular updates, open communication channels, and dedicated support ensure everything runs smoothly throughout the project.",
+          "Regular updates, open channels and dedicated support keep the project running smoothly.",
       },
     ],
   },
@@ -58,37 +58,37 @@ export const whyUsText = {
         number: "1",
         title: "Equipo Completo en un Solo Paquete",
         description:
-          "Obtén desarrolladores, diseñadores, ingenieros de software, expertos en seguridad y especialistas en la nube todo en un solo equipo. No necesitas buscar y contratar por separado—somos tu paquete completo.",
+          "Desarrolladores, diseñadores y especialistas en seguridad y nube en un solo equipo.",
       },
       {
         number: "2",
         title: "Entrenados y Listos para Trabajar",
         description:
-          "No solo estamos disponibles—estamos entrenados, preparados y listos para empezar a trabajar en tu proyecto inmediatamente. Productivos desde el primer día.",
+          "Entrenados, preparados y productivos desde el primer día, sin tiempo de arranque.",
       },
       {
         number: "3",
         title: "Expertise Versátil",
         description:
-          "Nuestro equipo maneja todo desde frontend hasta backend, diseño hasta despliegue, seguridad hasta infraestructura en la nube. Nos adaptamos a cualquier requisito de proyecto.",
+          "Del frontend al backend, del diseño al despliegue y la nube. Nos adaptamos a todo.",
       },
       {
         number: "4",
         title: "Expertos en Tecnologías Modernas",
         description:
-          "Trabajamos con tecnologías de vanguardia incluyendo IA, plataformas en la nube, prácticas DevOps y frameworks modernos para construir soluciones escalables y preparadas para el futuro.",
+          "IA, plataformas cloud, DevOps y frameworks modernos para soluciones escalables.",
       },
       {
         number: "5",
         title: "Socio Dedicado",
         description:
-          "Nos integramos con tu equipo y trabajamos como socios dedicados. Nuestro compromiso se extiende más allá de la entrega—aseguramos optimización continua y soporte mientras tu proyecto evoluciona.",
+          "Nos integramos con tu equipo y seguimos tras la entrega, optimizando y dando soporte.",
       },
       {
         number: "6",
         title: "Comunicación Transparente y Soporte Confiable",
         description:
-          "La comunicación clara y la confiabilidad son nuestra base. Actualizaciones regulares, canales de comunicación abiertos y soporte dedicado aseguran que todo funcione sin problemas durante el proyecto.",
+          "Actualizaciones regulares, canales abiertos y soporte dedicado durante el proyecto.",
       },
     ],
   },
@@ -104,37 +104,37 @@ export const whyUsText = {
         number: "1",
         title: "1つのパッケージで完全なチーム",
         description:
-          "開発者、デザイナー、ソフトウェアエンジニア、セキュリティ専門家、クラウドスペシャリストをすべて1つのチームで手に入れましょう。別々に探して雇う必要はありません—私たちがあなたの完全なパックです。",
+          "開発者、デザイナー、セキュリティとクラウドの専門家を1つのチームで。個別に探す必要はありません。",
       },
       {
         number: "2",
         title: "訓練され、働く準備ができている",
         description:
-          "私たちは利用可能なだけではありません—訓練され、準備が整い、すぐにあなたのプロジェクトで働き始める準備ができています。初日から走り出せます。",
+          "訓練され準備が整ったチーム。初日からプロジェクトを前に進めます。",
       },
       {
         number: "3",
         title: "多様な専門知識",
         description:
-          "私たちのチームは、フロントエンドからバックエンド、デザインからデプロイ、セキュリティからクラウドインフラストラクチャまで、すべてを処理します。あらゆるプロジェクト要件に適応します。",
+          "フロントエンドからバックエンド、デザインからデプロイ、クラウドまで柔軟に対応します。",
       },
       {
         number: "4",
         title: "最新技術の専門家",
         description:
-          "AI、クラウドプラットフォーム、DevOpsプラクティス、最新のフレームワークを含む最先端技術を使用して、スケーラブルで将来対応可能なソリューションを構築します。",
+          "AI、クラウド、DevOps、最新フレームワークでスケーラブルな基盤を構築します。",
       },
       {
         number: "5",
         title: "専任のパートナーシップ",
         description:
-          "私たちはあなたのチームと統合し、専任のパートナーとして働きます。私たちのコミットメントは配信を超えて拡張されます—プロジェクトが進化するにつれて、継続的な最適化とサポートを確保します。",
+          "チームに溶け込み、納品後も最適化とサポートを継続します。",
       },
       {
         number: "6",
         title: "透明なコミュニケーションと信頼できるサポート",
         description:
-          "明確なコミュニケーションと信頼性が私たちの基盤です。定期的な更新、オープンなコミュニケーションチャネル、専任のサポートにより、プロジェクト全体を通じてすべてがスムーズに機能することを保証します。",
+          "定期的な更新とオープンな連絡体制、専任サポートで円滑に進行します。",
       },
     ],
   },

@@ -1,20 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { MotionDiv } from "@/components/ui/motion-client";
 import Link from "next/link";
-import {
-  Linkedin,
-  Instagram,
-  Github,
-  Globe,
-  X,
-  Volume2,
-  VolumeX,
-  Play,
-} from "lucide-react";
+import { Linkedin, Instagram, Github, Globe, X } from "lucide-react";
 import { useLanguage } from "@/hooks/use-language";
 import { teamText } from "@/constants/team-translations";
 import { BehanceIcon } from "./icons/behance-icon";
@@ -37,7 +28,6 @@ const TeamMember = ({
   role,
   bio,
   image,
-  video,
   socialLinks,
   onOpen,
 }: {
@@ -45,11 +35,9 @@ const TeamMember = ({
   role: string;
   bio: string;
   image: string;
-  video?: string;
   socialLinks: SocialLinks;
   onOpen: () => void;
 }) => {
-  const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isHovering, setIsHovering] = useState(false);
   const [popoverPos, setPopoverPos] = useState<{ x: number; y: number }>({
     x: 0,
@@ -62,12 +50,6 @@ const TeamMember = ({
 
   const handleMouseLeave = () => {
     setIsHovering(false);
-    if (videoRef.current) {
-      try {
-        videoRef.current.pause();
-        videoRef.current.currentTime = 0;
-      } catch {}
-    }
   };
 
   const handleMouseMove = (
@@ -100,20 +82,6 @@ const TeamMember = ({
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* Hover video preview */}
-        {video && (
-          <video
-            ref={videoRef}
-            muted
-            playsInline
-            loop
-            preload="metadata"
-            className="absolute inset-0 w-full h-full object-cover opacity-0 pointer-events-none"
-          >
-            <source src={video} type="video/mp4" />
-          </video>
-        )}
-
         {/* Hover tooltip (global portal, fixed width, follows cursor) */}
         {isHovering &&
           typeof window !== "undefined" &&
@@ -145,41 +113,16 @@ export default function TeamSection() {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
-  const modalVideoRef = useRef<HTMLVideoElement | null>(null);
-  const [isMuted, setIsMuted] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(false);
 
   const openModal = (index: number) => {
     setActiveIdx(index);
     setIsModalOpen(true);
-    setIsMuted(true);
-    setIsPlaying(false);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
     setActiveIdx(null);
-    try {
-      modalVideoRef.current?.pause();
-      if (modalVideoRef.current) modalVideoRef.current.currentTime = 0;
-    } catch {}
   };
-
-  // Autoplay video when modal opens
-  useEffect(() => {
-    if (isModalOpen && activeIdx !== null) {
-      try {
-        if (modalVideoRef.current) {
-          modalVideoRef.current.muted = true;
-          modalVideoRef.current.currentTime = 0;
-          // next tick to ensure element is mounted
-          setTimeout(() => {
-            modalVideoRef.current?.play().catch(() => {});
-          }, 0);
-        }
-      } catch {}
-    }
-  }, [isModalOpen, activeIdx]);
 
   // Close modal on Escape key
   useEffect(() => {
@@ -231,7 +174,6 @@ export default function TeamSection() {
                 role={member.role}
                 bio={member.bio}
                 image={member.image}
-                video={member.video as string | undefined}
                 socialLinks={member}
                 onOpen={() => openModal(idx)}
               />
@@ -256,65 +198,15 @@ export default function TeamSection() {
                 </button>
                 <div className="grid grid-cols-1 md:grid-cols-2 h-full w-full">
                   <div className="relative h-full max-h-[80vh] bg-white flex items-center justify-center overflow-hidden rounded-l-2xl p-2 pr-0">
-                    {members[activeIdx].video ? (
-                      <div className="relative w-full h-full rounded-l-2xl overflow-hidden">
-                        <video
-                          ref={modalVideoRef}
-                          src={members[activeIdx].video as string}
-                          muted={isMuted}
-                          playsInline
-                          className="w-full h-full object-cover bg-black rounded-xl"
-                          onPlay={() => setIsPlaying(true)}
-                          onPause={() => setIsPlaying(false)}
-                          onClick={() => {
-                            if (!modalVideoRef.current) return;
-                            if (modalVideoRef.current.paused) {
-                              modalVideoRef.current.play().catch(() => {});
-                            } else {
-                              modalVideoRef.current.pause();
-                            }
-                          }}
-                        />
-                        {/* Mute toggle */}
-                        <button
-                          onClick={() => setIsMuted((m) => !m)}
-                          className="absolute top-3 left-3 z-10 p-2 rounded-full bg-white/80 hover:bg-white"
-                          aria-label={isMuted ? "Unmute" : "Mute"}
-                        >
-                          {isMuted ? (
-                            <VolumeX className="h-4 w-4 text-gray-700" />
-                          ) : (
-                            <Volume2 className="h-4 w-4 text-gray-700" />
-                          )}
-                        </button>
-                        {/* Play center button */}
-                        {!isPlaying && (
-                          <button
-                            onClick={() => modalVideoRef.current?.play()}
-                            className="absolute inset-0 m-auto h-14 w-14 md:h-16 md:w-16 flex items-center justify-center rounded-full bg-black/20 backdrop-blur-sm border border-white/30 hover:bg-black/30 hover:scale-110 transition-all duration-300 ease-out animate-fadeIn"
-                            style={{
-                              animation: "fadeIn 0.3s ease-out forwards",
-                            }}
-                            aria-label="Play"
-                          >
-                            <Play
-                              className="h-6 w-6 md:h-7 md:w-7 text-white"
-                              fill="white"
-                            />
-                          </button>
-                        )}
-                      </div>
-                    ) : (
-                      <div className="relative w-full h-full rounded-l-2xl overflow-hidden">
-                        <Image
-                          src={members[activeIdx].image}
-                          alt={members[activeIdx].name}
-                          width={960}
-                          height={1280}
-                          className="w-full h-full object-cover bg-black rounded-xl"
-                        />
-                      </div>
-                    )}
+                    <div className="relative w-full h-full rounded-l-2xl overflow-hidden">
+                      <Image
+                        src={members[activeIdx].image}
+                        alt={members[activeIdx].name}
+                        width={960}
+                        height={1280}
+                        className="w-full h-full object-cover bg-black rounded-xl"
+                      />
+                    </div>
                   </div>
                   <div className="p-6 md:p-8 flex flex-col justify-center  overflow-y-auto w-full">
                     <h3 className="text-3xl font-medium text-gray-900">

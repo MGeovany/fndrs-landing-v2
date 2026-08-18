@@ -89,7 +89,6 @@ const WhyUs = () => {
                   animation: 'shimmer 2s ease-in-out infinite',
                 }}
               />
-            >
               <div className="flex justify-between items-start mb-4">
                 <span className="text-6xl font-thin text-gray-500 transition-colors duration-300 group-hover:text-white">
                   {reason.number}

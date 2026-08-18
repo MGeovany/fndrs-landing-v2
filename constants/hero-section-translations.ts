@@ -15,7 +15,6 @@ type HeroLang = {
   metaPills: { num: string; label: string; href?: string }[];
   metaLive: string;
   marquee: string[];
-  scrollCue: string;
   statLatency: { label: string; value: string; unit: string };
   statLive: { label: string; value: string };
   statStack: { label: string; value: string };
@@ -51,7 +50,6 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
       "2-week sprints",
       "nda in 24h",
     ],
-    scrollCue: "scroll · explore",
     statLatency: { label: "latency", value: "38", unit: "ms" },
     statLive: { label: "now", value: "deploy #2148" },
     statStack: { label: "stack", value: "RN · Next · Go · TF" },
@@ -85,7 +83,6 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
       "sprints de 2 semanas",
       "nda en 24h",
     ],
-    scrollCue: "scroll · explorar",
     statLatency: { label: "latencia", value: "38", unit: "ms" },
     statLive: { label: "ahora", value: "deploy #2148" },
     statStack: { label: "stack", value: "RN · Next · Go · TF" },
@@ -119,7 +116,6 @@ export const heroText: Record<"en" | "es" | "ja", HeroLang> = {
       "2週間スプリント",
       "nda 24時間以内",
     ],
-    scrollCue: "scroll · 探索",
     statLatency: { label: "latency", value: "38", unit: "ms" },
     statLive: { label: "now", value: "deploy #2148" },
     statStack: { label: "stack", value: "RN · Next · Go · TF" },

@@ -2,7 +2,7 @@ export const stagesText = {
   en: {
     sectionTitle: "PROCESS",
     intro:
-      "We prioritize close collaboration with you at every step, ensuring personalized attention to your preferences, eliminating any worries about lack of involvement or disappointments.",
+      "We work closely with you at every step, with personalized attention to your preferences, so nothing about scope, progress or delivery catches you by surprise.",
     stages: [
       {
         step: 1,
@@ -49,7 +49,7 @@ export const stagesText = {
   es: {
     sectionTitle: "PROCESO",
     intro:
-      "Priorizamos una colaboración cercana contigo en cada etapa, asegurando atención personalizada a tus preferencias y eliminando cualquier preocupación por falta de involucramiento o decepciones.",
+      "Trabajamos cerca de ti en cada etapa, con atención personalizada a tus preferencias, para que nada del alcance, el avance o la entrega te tome por sorpresa.",
     stages: [
       {
         step: 1,
@@ -96,7 +96,7 @@ export const stagesText = {
   ja: {
     sectionTitle: "プロセス",
     intro:
-      "私たちはすべてのステップであなたとの密接な協力を優先し、ご希望に合わせたパーソナライズされた対応を行い、関与の欠如や失望の不安を解消します。",
+      "すべての工程であなたと密に連携し、ご希望に合わせた対応を行うことで、範囲・進捗・納品のいずれにも想定外が起きないようにします。",
     stages: [
       {
         step: 1,
