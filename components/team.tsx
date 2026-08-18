@@ -305,13 +305,15 @@ export default function TeamSection() {
                         )}
                       </div>
                     ) : (
-                      <Image
-                        src={members[activeIdx].image}
-                        alt={members[activeIdx].name}
-                        width={800}
-                        height={600}
-                        className="w-full h-full object-cover"
-                      />
+                      <div className="relative w-full h-full rounded-l-2xl overflow-hidden">
+                        <Image
+                          src={members[activeIdx].image}
+                          alt={members[activeIdx].name}
+                          width={960}
+                          height={1280}
+                          className="w-full h-full object-cover bg-black rounded-xl"
+                        />
+                      </div>
                     )}
                   </div>
                   <div className="p-6 md:p-8 flex flex-col justify-center  overflow-y-auto w-full">
