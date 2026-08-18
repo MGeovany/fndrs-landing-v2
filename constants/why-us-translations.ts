@@ -1,8 +1,6 @@
 export const whyUsText = {
   en: {
     heading: "Why Hire Our Team?",
-    description:
-      "When you hire our team, you get a complete pack of trained professionals ready to work on any project. Here's why companies choose us as their development team:",
     quote: "A Complete Team Ready to Work—No Need to Search Separately",
     ctaTitle: "Hire Our Team Right Now!!!",
     ctaButton: "Get Started",
@@ -47,8 +45,6 @@ export const whyUsText = {
   },
   es: {
     heading: "¿Por qué contratar nuestro equipo?",
-    description:
-      "Cuando contratas nuestro equipo, obtienes un paquete completo de profesionales entrenados listos para trabajar en cualquier proyecto. Aquí está por qué las empresas nos eligen como su equipo de desarrollo:",
     quote:
       "Un Equipo Completo Listo para Trabajar—No Necesitas Buscar por Separado",
     ctaTitle: "¡Contrata Nuestro Equipo Ahora Mismo!",
@@ -94,8 +90,6 @@ export const whyUsText = {
   },
   ja: {
     heading: "なぜ私たちのチームを雇うのか？",
-    description:
-      "私たちのチームを雇うことで、あらゆるプロジェクトで働く準備ができた訓練された専門家の完全なパックを手に入れることができます。企業が開発チームとして私たちを選ぶ理由をご紹介します：",
     quote: "完全なチームが働く準備ができている—別々に探す必要はない",
     ctaTitle: "今すぐ私たちのチームを雇おう！",
     ctaButton: "始める",

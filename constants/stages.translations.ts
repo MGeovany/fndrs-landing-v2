@@ -8,37 +8,37 @@ export const stagesText = {
         step: 1,
         title: "Discovery & Planning",
         description:
-          "We begin with a thorough analysis of your business needs and objectives. Our team works closely with stakeholders to define project scope, gather requirements, and establish clear goals and timelines for successful delivery.",
+          "We analyze your business needs and objectives, working closely with stakeholders to define scope, gather requirements, and set clear goals and timelines.",
       },
       {
         step: 2,
         title: "Design & Architecture",
         description:
-          "Our design phase focuses on creating intuitive user experiences and robust system architecture. We develop wireframes, prototypes, and technical specifications that serve as the blueprint for your software solution.",
+          "Our design phase shapes intuitive user experiences and robust architecture through wireframes, prototypes and the technical specs behind your solution.",
       },
       {
         step: 3,
         title: "Development",
         description:
-          "Using agile methodologies, our development team builds your solution with clean, maintainable code. We work in iterative cycles, delivering functional components regularly and incorporating feedback throughout the process.",
+          "Using agile methodologies, we build your solution with clean, maintainable code, delivering working components in iterative cycles and folding in feedback.",
       },
       {
         step: 4,
         title: "Testing & QA",
         description:
-          "Quality is paramount in our process. We implement comprehensive testing strategies including automated testing, performance testing, and user acceptance testing to ensure your software meets the highest standards of reliability and performance.",
+          "We run automated, performance and user acceptance testing throughout, so your software meets high standards of reliability before it reaches your users.",
       },
       {
         step: 5,
         title: "Deployment",
         description:
-          "We handle the seamless deployment of your solution to production environments, ensuring proper configuration, security measures, and monitoring systems are in place for optimal performance and stability.",
+          "We handle deployment to production end to end—configuration, security measures and monitoring—so your solution runs stably from its first day live.",
       },
       {
         step: 6,
         title: "Maintenance & Support",
         description:
-          "Our relationship continues after launch with dedicated support and maintenance services. We provide regular updates, performance optimization, and responsive technical support to keep your software running smoothly.",
+          "After launch we stay on with regular updates, performance optimization and responsive technical support to keep your software running smoothly as it grows.",
       },
     ],
     cta: {
@@ -55,37 +55,37 @@ export const stagesText = {
         step: 1,
         title: "Descubrimiento y Planificación",
         description:
-          "Comenzamos con un análisis exhaustivo de tus necesidades y objetivos. Trabajamos en conjunto con los stakeholders para definir el alcance del proyecto, recopilar requisitos y establecer metas y cronogramas claros.",
+          "Analizamos tus necesidades y objetivos junto a los stakeholders para definir el alcance, recopilar requisitos y fijar metas y cronogramas claros.",
       },
       {
         step: 2,
         title: "Diseño y Arquitectura",
         description:
-          "Nuestra fase de diseño se enfoca en crear experiencias intuitivas y una arquitectura robusta. Desarrollamos wireframes, prototipos y especificaciones técnicas como base para la solución.",
+          "La fase de diseño define experiencias intuitivas y una arquitectura robusta, con wireframes, prototipos y las especificaciones técnicas de tu solución.",
       },
       {
         step: 3,
         title: "Desarrollo",
         description:
-          "Usamos metodologías ágiles para construir soluciones con código limpio y mantenible. Trabajamos en ciclos iterativos, entregando componentes funcionales e incorporando retroalimentación.",
+          "Con metodologías ágiles construimos tu solución con código limpio y mantenible, entregando componentes funcionales por ciclos e incorporando feedback.",
       },
       {
         step: 4,
         title: "Pruebas y Control de Calidad",
         description:
-          "La calidad es clave. Implementamos pruebas automatizadas, pruebas de rendimiento y pruebas de aceptación del usuario para garantizar confiabilidad y desempeño.",
+          "Aplicamos pruebas automatizadas, de rendimiento y de aceptación para que tu software cumpla altos estándares de confiabilidad antes de llegar a producción.",
       },
       {
         step: 5,
         title: "Despliegue",
         description:
-          "Nos encargamos del despliegue en ambientes de producción, con configuraciones, seguridad y monitoreo adecuados para garantizar estabilidad.",
+          "Nos encargamos del despliegue a producción de punta a punta: configuración, seguridad y monitoreo, para que todo funcione estable desde el primer día.",
       },
       {
         step: 6,
         title: "Mantenimiento y Soporte",
         description:
-          "Seguimos contigo tras el lanzamiento, ofreciendo soporte, optimizaciones y actualizaciones para que todo funcione sin problemas.",
+          "Después del lanzamiento seguimos con actualizaciones, optimización de rendimiento y soporte técnico para que tu software funcione sin problemas.",
       },
     ],
     cta: {
@@ -102,37 +102,37 @@ export const stagesText = {
         step: 1,
         title: "発見と計画",
         description:
-          "まずはあなたのビジネスのニーズと目標を徹底的に分析します。関係者と密に連携し、プロジェクトの範囲を定義し、要件を収集し、明確な目標とタイムラインを設定します。",
+          "ビジネスのニーズと目標を分析し、関係者と連携して範囲を定義し、要件を整理して明確な目標とスケジュールを設定します。",
       },
       {
         step: 2,
         title: "設計とアーキテクチャ",
         description:
-          "直感的なユーザー体験と堅牢なシステムアーキテクチャの設計に注力します。ワイヤーフレーム、プロトタイプ、技術仕様書を作成し、ソリューションの青写真とします。",
+          "直感的な体験と堅牢なアーキテクチャを設計し、ワイヤーフレーム、プロトタイプ、技術仕様として形にします。",
       },
       {
         step: 3,
         title: "開発",
         description:
-          "アジャイル手法を用いて、クリーンで保守しやすいコードでソリューションを構築します。反復的なサイクルで機能コンポーネントを定期的に提供し、フィードバックを反映させます。",
+          "アジャイル手法で保守しやすいコードを書き、反復的なサイクルで機能を提供しながらフィードバックを反映します。",
       },
       {
         step: 4,
         title: "テストと品質保証",
         description:
-          "品質は私たちの最優先事項です。自動テスト、パフォーマンステスト、ユーザー受け入れテストを含む包括的なテスト戦略を実施し、信頼性とパフォーマンスの最高基準を満たします。",
+          "自動テスト、性能テスト、受け入れテストを通じて、リリース前に高い信頼性と性能を確認します。",
       },
       {
         step: 5,
         title: "展開",
         description:
-          "本番環境へのスムーズな展開を管理します。適切な構成、セキュリティ対策、監視体制を整え、最適なパフォーマンスと安定性を確保します。",
+          "本番環境への展開を一貫して担当し、構成・セキュリティ・監視を整えて初日から安定して動く状態にします。",
       },
       {
         step: 6,
         title: "保守とサポート",
         description:
-          "リリース後も関係は続きます。定期的なアップデート、パフォーマンスの最適化、迅速な技術サポートを提供し、ソフトウェアの円滑な運用を支援します。",
+          "リリース後も定期的な更新、性能改善、迅速な技術サポートで、円滑な運用を継続的に支えます。",
       },
     ],
     cta: {

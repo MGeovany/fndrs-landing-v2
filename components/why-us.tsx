@@ -61,9 +61,6 @@ const WhyUs = () => {
             <h2 className="bg-gradient-to-br from-white from-30% to-white/40 bg-clip-text text-2xl leading-tight font-bold  text-transparent sm:text-3xl md:text-4xl lg:text-5xl mb-4 uppercase">
               {t.heading}
             </h2>
-          <p className="text-gray-200 leading-relaxed text-md max-w-3xl mx-auto mb-4 font-medium">
-            {t.description}
-          </p>
           <p className="text-xl font-thin text-gray-300">"{t.quote}"</p>
         </MotionDiv>
 
