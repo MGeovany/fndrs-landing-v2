@@ -24,6 +24,12 @@ export async function generateMetadata({
 }: {
   params: { slug: string; lang: string };
 }): Promise<Metadata> {
+  if (!client) {
+    return {
+      title: "Post not found",
+    };
+  }
+
   const { slug, lang } = await params;
   const post = await client.fetch(query, { slug });
 
@@ -109,6 +115,10 @@ export default async function PostPage({
 }: {
   params: { slug: string; lang: string };
 }) {
+  if (!client) {
+    return <div>Post not found</div>;
+  }
+
   const { slug, lang } = await params;
   const post = await client.fetch(query, { slug });
   if (!post) {

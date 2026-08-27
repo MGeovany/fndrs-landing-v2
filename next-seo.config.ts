@@ -5,6 +5,13 @@ const SEO: Metadata = {
   description:
     "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
   metadataBase: new URL("https://www.thefndrs.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "64x64" },
+    ],
+    shortcut: "/favicon.svg",
+  },
   openGraph: {
     type: "website",
     locale: "en_HN",

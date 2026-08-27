@@ -22,6 +22,10 @@ const query = groq`
 `;
 
 export default async function BlogPage() {
+  if (!client) {
+    return <BlogList posts={[]} />;
+  }
+
   const posts = await client.fetch(query);
   return <BlogList posts={posts} />;
 }
