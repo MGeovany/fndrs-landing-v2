@@ -22,7 +22,7 @@ const SEO: Metadata = {
       "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     images: [
       {
-        url: "https://www.thefndrs.com/og.png",
+        url: "https://www.thefndrs.com/og.jpg",
         width: 1200,
         height: 630,
         alt: "FNDRS - Make things with excellence",
@@ -38,7 +38,7 @@ const SEO: Metadata = {
       "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     images: [
       {
-        url: "https://www.thefndrs.com/og.png",
+        url: "https://www.thefndrs.com/og.jpg",
         alt: "FNDRS - Make things with excellence",
       },
     ],

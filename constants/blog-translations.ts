@@ -12,7 +12,7 @@ export const blogText = {
         siteName: "FNDRS Blog",
         images: [
           {
-            url: "https://thefndrs.com/og-image.png",
+            url: "https://www.thefndrs.com/og.jpg",
             width: 1200,
             height: 630,
             alt: "FNDRS Blog",
@@ -21,7 +21,7 @@ export const blogText = {
       },
       twitter: {
         card: "summary_large_image",
-        images: ["https://thefndrs.com/og-image.png"],
+        images: ["https://www.thefndrs.com/og.jpg"],
       },
     },
     backLink: "Back to Blog",
@@ -52,7 +52,7 @@ export const blogText = {
         siteName: "Blog de FNDRS",
         images: [
           {
-            url: "https://thefndrs.com/og-image.png",
+            url: "https://www.thefndrs.com/og.jpg",
             width: 1200,
             height: 630,
             alt: "Blog de FNDRS",
@@ -61,7 +61,7 @@ export const blogText = {
       },
       twitter: {
         card: "summary_large_image",
-        images: ["https://thefndrs.com/og-image.png"],
+        images: ["https://www.thefndrs.com/og.jpg"],
       },
     },
     backLink: "Volver al Blog",
@@ -92,7 +92,7 @@ export const blogText = {
         siteName: "FNDRS ブログ",
         images: [
           {
-            url: "https://thefndrs.com/og-image.png",
+            url: "https://www.thefndrs.com/og.jpg",
             width: 1200,
             height: 630,
             alt: "FNDRS ブログ",
@@ -101,7 +101,7 @@ export const blogText = {
       },
       twitter: {
         card: "summary_large_image",
-        images: ["https://thefndrs.com/og-image.png"],
+        images: ["https://www.thefndrs.com/og.jpg"],
       },
     },
     backLink: "ブログへ戻る",
