@@ -1,8 +1,8 @@
 export const contactFormText = {
   en: {
     titleAccent: "FNDRS",
-    titleRest: "takes on a few products at a time.",
-    subtitle: "Sometimes as paid work. Sometimes with more at stake.",
+    titleRest: "works on a few things at a time.",
+    subtitle: "If you are building something, tell us what it is.",
     nameLabel: "Name*",
     namePlaceholder: "Hello...",
     emailLabel: "Email*",
@@ -47,8 +47,8 @@ export const contactFormText = {
 
   es: {
     titleAccent: "FNDRS",
-    titleRest: "toma pocos productos a la vez.",
-    subtitle: "A veces como trabajo pagado. A veces con más en juego.",
+    titleRest: "trabaja en pocas cosas a la vez.",
+    subtitle: "Si estás construyendo algo, cuéntanos qué es.",
     nameLabel: "Nombre*",
     namePlaceholder: "Hola...",
     emailLabel: "Correo*",
@@ -93,8 +93,8 @@ export const contactFormText = {
 
   ja: {
     titleAccent: "FNDRS",
-    titleRest: "は一度に少数のプロダクトだけを手がける。",
-    subtitle: "契約で終わることもあれば、深く関わることもある。",
+    titleRest: "は同時に少数の仕事しかしない。",
+    subtitle: "つくっているものがあれば、教えてほしい。",
     nameLabel: "名前*",
     namePlaceholder: "こんにちは...",
     emailLabel: "メールアドレス*",

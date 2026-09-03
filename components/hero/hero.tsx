@@ -442,19 +442,19 @@ export default function Hero() {
           <div className="cta-row">
             <MagneticButton
               primary
-              icon={<ArrowUpRight strokeWidth={2.5} />}
+              icon={<ArrowDown strokeWidth={2.5} />}
               onClick={() => {
-                trackButtonClick("get_started", "hero_section");
-                router.push(`/${language}/contact`);
+                trackButtonClick("view_allons", "hero_section");
+                router.push(`/${language}/#allons`);
               }}
             >
               {t.ctaPrimary}
             </MagneticButton>
             <MagneticButton
-              icon={<ArrowDown strokeWidth={2.5} />}
+              icon={<ArrowUpRight strokeWidth={2.5} />}
               onClick={() => {
-                trackButtonClick("view_allons", "hero_section");
-                router.push(`/${language}/#allons`);
+                trackButtonClick("get_started", "hero_section");
+                router.push(`/${language}/contact`);
               }}
             >
               {t.ctaSecondary}

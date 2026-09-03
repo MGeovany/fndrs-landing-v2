@@ -3,9 +3,8 @@ export const navbarText = {
     nav: [
       { href: "#home", label: "Home" },
       { href: "#allons", label: "Allons" },
-      { href: "#whyUs", label: "How We Work" },
-      { href: "#process", label: "Our Process" },
-      { href: "#services", label: "Capabilities" },
+      { href: "#team", label: "Team" },
+      { href: "#whyUs", label: "How we work" },
       { href: "/blog", label: "Blog" },
     ],
     cta: "Contact Us",
@@ -15,9 +14,8 @@ export const navbarText = {
     nav: [
       { href: "#home", label: "Inicio" },
       { href: "#allons", label: "Allons" },
+      { href: "#team", label: "Equipo" },
       { href: "#whyUs", label: "Cómo trabajamos" },
-      { href: "#process", label: "Nuestro proceso" },
-      { href: "#services", label: "Capacidades" },
       { href: "/blog", label: "Blog" },
     ],
     cta: "Contáctanos",
@@ -27,9 +25,8 @@ export const navbarText = {
     nav: [
       { href: "#home", label: "ホーム" },
       { href: "#allons", label: "Allons" },
+      { href: "#team", label: "チーム" },
       { href: "#whyUs", label: "働き方" },
-      { href: "#process", label: "プロセス" },
-      { href: "#services", label: "専門分野" },
       { href: "/blog", label: "ブログ" },
     ],
     cta: "お問い合わせ",

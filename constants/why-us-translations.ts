@@ -1,79 +1,76 @@
 export const whyUsText = {
   en: {
-    heading: "How FNDRS Works",
-    quote: "FNDRS doesn't take every project. It gets involved in a few, closely.",
+    heading: "How we work",
+    quote: "We work on a few things at a time.",
     ctaTitle: "Get in touch.",
     ctaButton: "Contact",
     reasons: [
       {
         number: "1",
-        title: "One team, start to finish",
+        title: "The same people",
         description:
-          "Product, design, engineering, and infrastructure sit with the same people. Nothing passes between agencies.",
+          "Product, design, engineering and infrastructure. Nobody in between.",
       },
       {
         number: "2",
-        title: "Not always a flat fee",
-        description:
-          "On some products, FNDRS works for milestones, equity, or a share of revenue instead of an invoice.",
+        title: "A few things at a time",
+        description: "A couple of products, not a roster of accounts.",
       },
       {
         number: "3",
-        title: "Built by people who ship",
+        title: "Contract work too",
         description:
-          "The same people write the code, design the screens, and run the infrastructure. No account managers in between.",
+          "We still build software for other companies. In some cases the deal includes a stake in what gets built.",
       },
     ],
   },
   es: {
-    heading: "Cómo Trabaja FNDRS",
-    quote: "FNDRS no toma cualquier proyecto. Se involucra de cerca en unos pocos.",
+    heading: "Cómo trabajamos",
+    quote: "Trabajamos en pocas cosas a la vez.",
     ctaTitle: "Escríbenos.",
     ctaButton: "Contacto",
     reasons: [
       {
         number: "1",
-        title: "Un solo equipo, de principio a fin",
+        title: "Las mismas personas",
         description:
-          "Producto, diseño, ingeniería e infraestructura los llevan las mismas personas. Nada pasa entre agencias.",
+          "Producto, diseño, ingeniería e infraestructura. Nadie más en medio.",
       },
       {
         number: "2",
-        title: "No siempre es una tarifa fija",
-        description:
-          "En algunos productos, FNDRS trabaja por hitos, equity o un porcentaje de ingresos, en vez de una factura.",
+        title: "Pocas cosas a la vez",
+        description: "Un par de productos, no una cartera de cuentas.",
       },
       {
         number: "3",
-        title: "Construido por quienes lo lanzan",
+        title: "También por contrato",
         description:
-          "Las mismas personas escriben el código, diseñan las pantallas y corren la infraestructura. Sin gerentes de cuenta de por medio.",
+          "Seguimos construyendo software para otras empresas. En algunos casos el acuerdo incluye participación en lo que se construye.",
       },
     ],
   },
   ja: {
-    heading: "FNDRSの働き方",
-    quote: "FNDRSはどんな案件でも受けない。少数の案件に深く関わる。",
+    heading: "働き方",
+    quote: "同時に抱えるのは、いつも少しだけ。",
     ctaTitle: "お問い合わせください。",
     ctaButton: "連絡する",
     reasons: [
       {
         number: "1",
-        title: "一つのチームが最初から最後まで",
+        title: "同じ人間が担当する",
         description:
-          "プロダクト、デザイン、エンジニアリング、インフラを同じメンバーが担当します。制作会社間の引き継ぎはありません。",
+          "プロダクト、デザイン、エンジニアリング、インフラ。間に誰も入らない。",
       },
       {
         number: "2",
-        title: "定額とは限らない",
-        description:
-          "案件によっては、請求書ではなくマイルストーン、エクイティ、収益の一部という形で関わります。",
+        title: "同時に抱えるのは少数",
+        description: "案件の一覧ではなく、数個のプロダクト。",
       },
       {
         number: "3",
-        title: "実際に作る人が作る",
+        title: "受託の仕事も続けている",
         description:
-          "コードを書き、画面を設計し、インフラを運用するのは同じメンバーです。間にアカウントマネージャーはいません。",
+          "他社のソフトウェアもつくる。条件によっては、つくるものへの参加を含む。",
       },
     ],
   },

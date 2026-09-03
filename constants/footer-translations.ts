@@ -3,7 +3,7 @@ export const footerText = {
     collaborationNote: "Open for any collaboration",
     consultationTitle: "Get in touch.",
     introParagraph:
-      "FNDRS takes on a small number of products at a time, sometimes as paid work, sometimes with more at stake.",
+      "If you have something real underway, write to us. We also still take contract work.",
     cta: "Contact",
     contactEmail: "Email address",
     contactLabel: "contact@fndrs.com",
@@ -12,8 +12,8 @@ export const footerText = {
     navLinks: [
       { label: "Homepage", href: "#home" },
       { label: "Allons", href: "/#allons" },
+      { label: "Team", href: "/#team" },
       { label: "Capabilities", href: "/#services" },
-      { label: "Our Process", href: "/#process" },
     ],
     companyTitle: "Company",
     companyLinks: [
@@ -33,7 +33,7 @@ export const footerText = {
     collaborationNote: "Abiertos a cualquier colaboración",
     consultationTitle: "Escríbenos.",
     introParagraph:
-      "FNDRS toma pocos productos a la vez, a veces como trabajo pagado, a veces con más en juego.",
+      "Si tienes algo real en marcha, escríbenos. También seguimos tomando trabajo por contrato.",
     cta: "Contacto",
     contactEmail: "Correo electrónico",
     contactLabel: "contacto@fndrs.com",
@@ -42,8 +42,8 @@ export const footerText = {
     navLinks: [
       { label: "Inicio", href: "/#home" },
       { label: "Allons", href: "/#allons" },
+      { label: "Equipo", href: "/#team" },
       { label: "Capacidades", href: "/#services" },
-      { label: "Nuestro proceso", href: "/#process" },
     ],
     companyTitle: "Compañía",
     companyLinks: [
@@ -63,7 +63,7 @@ export const footerText = {
     collaborationNote: "どんなコラボレーションでも歓迎します",
     consultationTitle: "お問い合わせください。",
     introParagraph:
-      "FNDRSは一度に少数のプロダクトだけを手がける。契約で終わることもあれば、深く関わることもある。",
+      "動いているものがあるなら、連絡してほしい。受託の仕事も引き続き受けている。",
     cta: "連絡する",
     contactEmail: "メールアドレス",
     contactLabel: "contact@fndrs.com",
@@ -72,8 +72,8 @@ export const footerText = {
     navLinks: [
       { label: "ホーム", href: "/#home" },
       { label: "Allons", href: "/#allons" },
+      { label: "チーム", href: "/#team" },
       { label: "専門分野", href: "/#services" },
-      { label: "私たちのプロセス", href: "/#process" },
     ],
     companyTitle: "会社情報",
     companyLinks: [

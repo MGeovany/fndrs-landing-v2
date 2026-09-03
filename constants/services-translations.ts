@@ -2,7 +2,7 @@ export const servicesText = {
   en: {
     title: "Capabilities",
     description:
-      "Development, design, engineering, infrastructure, and security. In house, not outsourced.",
+      "Product, design, engineering, infrastructure and security. All of it in house.",
     services: [
       {
         title: "Software Developers",
@@ -29,7 +29,7 @@ export const servicesText = {
   es: {
     title: "Capacidades",
     description:
-      "Desarrollo, diseño, ingeniería, infraestructura y seguridad. Todo interno, no tercerizado.",
+      "Producto, diseño, ingeniería, infraestructura y seguridad. Todo lo hace el mismo equipo.",
     services: [
       {
         title: "Desarrolladores de Software",
@@ -55,7 +55,7 @@ export const servicesText = {
   },
   ja: {
     title: "専門分野",
-    description: "開発、デザイン、エンジニアリング、インフラ、セキュリティ。すべて内製。",
+    description: "プロダクト、デザイン、エンジニアリング、インフラ、セキュリティ。すべて同じチームで。",
     services: [
       {
         title: "ソフトウェア開発者",

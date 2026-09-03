@@ -6,7 +6,7 @@ const SchemaMarkup = () => {
     url: "https://www.thefndrs.com",
     logo: "https://www.thefndrs.com/_next/image?url=%2Ffndrs-logo.webp&w=128&q=75",
     description:
-      "FNDRS builds products. Some are paid engagements, some are companies FNDRS stays involved in, like Allons.",
+      "FNDRS is a team of three in Honduras: design, engineering and infrastructure. We build product, and we take part in the companies we build. Allons is the first.",
     sameAs: [
       "https://twitter.com/FNDRS",
       "https://www.linkedin.com/company/FNDRS",

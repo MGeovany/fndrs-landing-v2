@@ -49,12 +49,12 @@ const memberUnchangedData: (Pick<TeamTextMember, "name" | "image"> &
 
 export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
   en: {
-    heading: "Meet the Founding team that makes it all happen",
-    headingPart1: "Discover the people behind FNDRS.",
+    heading: "The three of us",
+    headingPart1: "There are three of us.",
     sectionLabel: "THE TEAM",
     description:
-      "We have spent years working on startups, building out digital experiences and working on tech companies.",
-    badge: "We're open to collaborations!",
+      "Design, engineering and infrastructure. The same people build Allons and the contract work.",
+    badge: "Open to collaborations",
     members: [
       {
         name: memberUnchangedData[0].name,
@@ -86,12 +86,12 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     ],
   },
   es: {
-    heading: "Conoce al equipo fundador que lo hace posible",
-    headingPart1: "Descubre a las personas detrás de FNDRS.",
+    heading: "Somos tres",
+    headingPart1: "Somos tres.",
     sectionLabel: "EL EQUIPO",
     description:
-      "Hemos trabajado en startups, creando experiencias digitales y colaborando con empresas tecnológicas.",
-    badge: "¡Estamos abiertos a colaboraciones!",
+      "Diseño, ingeniería e infraestructura. Las mismas personas hacen Allons y el trabajo por contrato.",
+    badge: "Abiertos a colaboraciones",
     members: [
       {
         name: memberUnchangedData[0].name,
@@ -123,12 +123,12 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     ],
   },
   ja: {
-    heading: "すべてを実現する創業メンバーを紹介します",
-    headingPart1: "FNDRSを支える人々をご紹介します。",
+    heading: "三人でやっている",
+    headingPart1: "私たちは三人。",
     sectionLabel: "チーム",
     description:
-      "私たちのチームは技術的専門知識、創造的ビジョン、戦略的思考を組み合わせ、アイデアをデジタル成功ストーリーに変える革新的なソリューションを提供します。",
-    badge: "コラボレーション募集中！",
+      "デザイン、エンジニアリング、インフラ。Allonsも受託の仕事も、同じ人間がつくっている。",
+    badge: "コラボレーション歓迎",
     members: [
       {
         name: memberUnchangedData[0].name,
