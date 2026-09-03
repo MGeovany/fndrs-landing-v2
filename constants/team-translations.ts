@@ -49,12 +49,12 @@ const memberUnchangedData: (Pick<TeamTextMember, "name" | "image"> &
 
 export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
   en: {
-    heading: "The three of us",
-    headingPart1: "There are three of us.",
+    heading: "Meet the Founding team that makes it all happen",
+    headingPart1: "Discover the people behind FNDRS.",
     sectionLabel: "THE TEAM",
     description:
-      "Design, engineering and infrastructure. We have been doing this for years.",
-    badge: "Open to collaborations",
+      "We have spent years working on startups, building out digital experiences and working on tech companies.",
+    badge: "We're open to collaborations!",
     members: [
       {
         name: memberUnchangedData[0].name,
@@ -86,12 +86,12 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     ],
   },
   es: {
-    heading: "Somos tres",
-    headingPart1: "Somos tres.",
+    heading: "Conoce al equipo fundador que lo hace posible",
+    headingPart1: "Descubre a las personas detrás de FNDRS.",
     sectionLabel: "EL EQUIPO",
     description:
-      "Diseño, ingeniería e infraestructura. Llevamos años en esto.",
-    badge: "Abiertos a colaboraciones",
+      "Hemos trabajado en startups, creando experiencias digitales y colaborando con empresas tecnológicas.",
+    badge: "¡Estamos abiertos a colaboraciones!",
     members: [
       {
         name: memberUnchangedData[0].name,
@@ -123,12 +123,12 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     ],
   },
   ja: {
-    heading: "三人でやっている",
-    headingPart1: "私たちは三人。",
+    heading: "すべてを実現する創業メンバーを紹介します",
+    headingPart1: "FNDRSを支える人々をご紹介します。",
     sectionLabel: "チーム",
     description:
-      "デザイン、エンジニアリング、インフラ。もう何年もこれをやっている。",
-    badge: "コラボレーション歓迎",
+      "私たちのチームは技術的専門知識、創造的ビジョン、戦略的思考を組み合わせ、アイデアをデジタル成功ストーリーに変える革新的なソリューションを提供します。",
+    badge: "コラボレーション募集中！",
     members: [
       {
         name: memberUnchangedData[0].name,

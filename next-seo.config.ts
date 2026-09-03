@@ -3,7 +3,7 @@ import { Metadata } from "next";
 const SEO: Metadata = {
   title: "FNDRS - Make things with excellence",
   description:
-    "FNDRS is a team of founders in Honduras. We design and build software for other companies, and in some of them we end up part of the company.",
+    "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
   metadataBase: new URL("https://www.thefndrs.com"),
   icons: {
     icon: [
@@ -19,7 +19,7 @@ const SEO: Metadata = {
     siteName: "FNDRS",
     title: "FNDRS - Make things with excellence",
     description:
-      "FNDRS is a team of founders in Honduras. We design and build software for other companies, and in some of them we end up part of the company.",
+      "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     images: [
       {
         url: "https://www.thefndrs.com/og.jpg",
@@ -35,7 +35,7 @@ const SEO: Metadata = {
     creator: "@FNDRS",
     title: "FNDRS - Make things with excellence",
     description:
-      "FNDRS is a team of founders in Honduras. We design and build software for other companies, and in some of them we end up part of the company.",
+      "FNDRS is a development team of software developers, designers, engineers, security experts, and cloud specialists ready to work on your projects.",
     images: [
       {
         url: "https://www.thefndrs.com/og.jpg",

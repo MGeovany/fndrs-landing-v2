@@ -1,73 +1,97 @@
 export const servicesText = {
   en: {
-    title: "Capabilities",
-    description: "We do this ourselves. None of it is subcontracted.",
+    title: "Our Team's Expertise",
+    description:
+      "A complete development team you can hire as one pack: developers, designers, engineers, security and cloud specialists.",
     services: [
       {
-        title: "Product and design",
+        title: "Software Developers",
         description:
-          "Interfaces, design systems and the product decisions behind them.",
+          "Experienced developers who build and maintain applications across modern stacks.",
       },
       {
-        title: "Engineering",
+        title: "UX/UI Designers",
         description:
-          "Web and mobile applications, and the architecture underneath.",
+          "Designers who craft intuitive interfaces that lift user experience and business results.",
       },
       {
-        title: "Infrastructure",
-        description: "Cloud, deployments and what it takes to run in production.",
+        title: "Software Engineers",
+        description:
+          "Senior engineers who architect scalable systems and keep code quality high.",
       },
       {
-        title: "Security",
-        description: "Protecting systems and keeping them compliant.",
+        title: "Cloud & DevOps Specialists",
+        description:
+          "Cloud infrastructure and deployment pipelines for reliable, scalable systems.",
+      },
+      {
+        title: "Security Experts",
+        description:
+          "Cybersecurity specialists who protect digital assets and keep you compliant.",
       },
     ],
   },
   es: {
-    title: "Capacidades",
-    description: "Lo hacemos nosotros. Nada de esto se subcontrata.",
+    title: "Expertise de Nuestro Equipo",
+    description:
+      "Un equipo de desarrollo completo que contratas de una vez: developers, diseñadores, ingenieros y especialistas en seguridad y nube.",
     services: [
       {
-        title: "Producto y diseño",
+        title: "Desarrolladores de Software",
         description:
-          "Interfaces, sistemas de diseño y las decisiones de producto detrás.",
+          "Desarrolladores con experiencia que construyen y mantienen aplicaciones modernas.",
       },
       {
-        title: "Ingeniería",
+        title: "Diseñadores UX/UI",
         description:
-          "Aplicaciones web y móviles, y la arquitectura que las sostiene.",
+          "Diseñadores que crean interfaces intuitivas que mejoran la experiencia y los resultados.",
       },
       {
-        title: "Infraestructura",
+        title: "Ingenieros de Software",
         description:
-          "Nube, despliegues y lo que haga falta para que corra en producción.",
+          "Ingenieros senior que diseñan sistemas escalables y cuidan la calidad del código.",
       },
       {
-        title: "Seguridad",
-        description: "Proteger los sistemas y mantener el cumplimiento.",
+        title: "Especialistas en Cloud & DevOps",
+        description:
+          "Especialistas en infraestructura cloud y pipelines de despliegue confiables y escalables.",
+      },
+      {
+        title: "Expertos en Seguridad",
+        description:
+          "Especialistas en ciberseguridad que protegen tus activos digitales y aseguran cumplimiento.",
       },
     ],
   },
   ja: {
-    title: "できること",
-    description: "すべて自分たちで手を動かす。外注はしない。",
+    title: "私たちのチームの専門知識",
+    description:
+      "開発者、デザイナー、エンジニア、セキュリティとクラウドの専門家が揃った開発チームを、まとめて採用できます。",
     services: [
       {
-        title: "プロダクトとデザイン",
+        title: "ソフトウェア開発者",
         description:
-          "インターフェース、デザインシステム、その裏にあるプロダクトの判断。",
+          "最新の技術スタックでアプリケーションを構築・運用する経験豊富な開発者。",
       },
       {
-        title: "エンジニアリング",
-        description: "ウェブとモバイルのアプリケーション、それを支える設計。",
+        title: "UX/UIデザイナー",
+        description:
+          "ユーザー体験と成果を高める、直感的なインターフェースを設計するデザイナー。",
       },
       {
-        title: "インフラ",
-        description: "クラウド、デプロイ、本番で動かすために必要なもの。",
+        title: "ソフトウェアエンジニア",
+        description:
+          "スケーラブルな設計とコード品質の担保を担うシニアエンジニア。",
       },
       {
-        title: "セキュリティ",
-        description: "システムを守り、コンプライアンスを保つ。",
+        title: "クラウド＆DevOpsスペシャリスト",
+        description:
+          "クラウド基盤とデプロイパイプラインで、信頼性の高い拡張可能な環境を構築します。",
+      },
+      {
+        title: "セキュリティ専門家",
+        description:
+          "デジタル資産を守り、コンプライアンスを確保するセキュリティ専門家。",
       },
     ],
   },

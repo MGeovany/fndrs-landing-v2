@@ -2,137 +2,141 @@ export const stagesText = {
   en: {
     sectionTitle: "PROCESS",
     intro:
-      "Discovery, design, and engineering run the same way on every product, whether it's paid work or something FNDRS is built into.",
+      "We work closely with you at every step, with personalized attention to your preferences, so nothing about scope, progress or delivery catches you by surprise.",
     stages: [
       {
         step: 1,
         title: "Discovery & Planning",
         description:
-          "Business needs, stakeholders, scope, and a realistic timeline, before anything gets built.",
+          "We analyze your business needs and objectives, working closely with stakeholders to define scope, gather requirements, and set clear goals and timelines.",
       },
       {
         step: 2,
         title: "Design & Architecture",
         description:
-          "Wireframes, prototypes, and the technical architecture behind the product.",
+          "Our design phase shapes intuitive user experiences and robust architecture through wireframes, prototypes and the technical specs behind your solution.",
       },
       {
         step: 3,
         title: "Development",
         description:
-          "Working software in short cycles, with feedback folded in as it goes.",
+          "Using agile methodologies, we build your solution with clean, maintainable code, delivering working components in iterative cycles and folding in feedback.",
       },
       {
         step: 4,
         title: "Testing & QA",
         description:
-          "Automated tests, performance checks, and real usage testing before anything ships.",
+          "We run automated, performance and user acceptance testing throughout, so your software meets high standards of reliability before it reaches your users.",
       },
       {
         step: 5,
         title: "Deployment",
         description:
-          "Configuration, security, and monitoring, so production is stable from day one.",
+          "We handle deployment to production end to end: configuration, security measures and monitoring, so your solution runs stably from its first day live.",
       },
       {
         step: 6,
         title: "Maintenance & Support",
         description:
-          "Updates, performance tuning, and support that continue after launch.",
+          "After launch we stay on with regular updates, performance optimization and responsive technical support to keep your software running smoothly as it grows.",
       },
     ],
     cta: {
-      title: "Ready to build?",
+      title: "Start a project?",
       link: "Contact Us",
     },
   },
   es: {
     sectionTitle: "PROCESO",
     intro:
-      "El descubrimiento, el diseño y la ingeniería funcionan igual en cada producto, sea trabajo pagado o algo en lo que FNDRS está involucrado a fondo.",
+      "Trabajamos cerca de ti en cada etapa, con atención personalizada a tus preferencias, para que nada del alcance, el avance o la entrega te tome por sorpresa.",
     stages: [
       {
         step: 1,
         title: "Descubrimiento y Planificación",
         description:
-          "Necesidades del negocio, stakeholders, alcance y un cronograma realista, antes de construir nada.",
+          "Analizamos tus necesidades y objetivos junto a los stakeholders para definir el alcance, recopilar requisitos y fijar metas y cronogramas claros.",
       },
       {
         step: 2,
         title: "Diseño y Arquitectura",
         description:
-          "Wireframes, prototipos y la arquitectura técnica detrás del producto.",
+          "La fase de diseño define experiencias intuitivas y una arquitectura robusta, con wireframes, prototipos y las especificaciones técnicas de tu solución.",
       },
       {
         step: 3,
         title: "Desarrollo",
         description:
-          "Software funcionando en ciclos cortos, incorporando feedback sobre la marcha.",
+          "Con metodologías ágiles construimos tu solución con código limpio y mantenible, entregando componentes funcionales por ciclos e incorporando feedback.",
       },
       {
         step: 4,
         title: "Pruebas y Control de Calidad",
         description:
-          "Pruebas automatizadas, de rendimiento y de uso real, antes de que algo salga a producción.",
+          "Aplicamos pruebas automatizadas, de rendimiento y de aceptación para que tu software cumpla altos estándares de confiabilidad antes de llegar a producción.",
       },
       {
         step: 5,
         title: "Despliegue",
         description:
-          "Configuración, seguridad y monitoreo, para que producción sea estable desde el día uno.",
+          "Nos encargamos del despliegue a producción de punta a punta: configuración, seguridad y monitoreo, para que todo funcione estable desde el primer día.",
       },
       {
         step: 6,
         title: "Mantenimiento y Soporte",
         description:
-          "Actualizaciones, optimización de rendimiento y soporte que continúan después del lanzamiento.",
+          "Después del lanzamiento seguimos con actualizaciones, optimización de rendimiento y soporte técnico para que tu software funcione sin problemas.",
       },
     ],
     cta: {
-      title: "¿Listos para construir?",
+      title: "¿Iniciamos tu proyecto?",
       link: "Contáctanos",
     },
   },
   ja: {
     sectionTitle: "プロセス",
     intro:
-      "発見、設計、エンジニアリングの進め方は、契約の仕事でもFNDRSが深く関わるプロダクトでも変わらない。",
+      "すべての工程であなたと密に連携し、ご希望に合わせた対応を行うことで、範囲・進捗・納品のいずれにも想定外が起きないようにします。",
     stages: [
       {
         step: 1,
         title: "発見と計画",
         description:
-          "ビジネスのニーズ、関係者、範囲、現実的なスケジュール。何かを作り始める前に整理する。",
+          "ビジネスのニーズと目標を分析し、関係者と連携して範囲を定義し、要件を整理して明確な目標とスケジュールを設定します。",
       },
       {
         step: 2,
         title: "設計とアーキテクチャ",
-        description: "ワイヤーフレーム、プロトタイプ、プロダクトを支える技術アーキテクチャ。",
+        description:
+          "直感的な体験と堅牢なアーキテクチャを設計し、ワイヤーフレーム、プロトタイプ、技術仕様として形にします。",
       },
       {
         step: 3,
         title: "開発",
-        description: "短いサイクルで動くソフトウェアを作り、フィードバックをその都度反映する。",
+        description:
+          "アジャイル手法で保守しやすいコードを書き、反復的なサイクルで機能を提供しながらフィードバックを反映します。",
       },
       {
         step: 4,
         title: "テストと品質保証",
         description:
-          "自動テスト、性能テスト、実際の使用に近いテスト。リリース前に確認する。",
+          "自動テスト、性能テスト、受け入れテストを通じて、リリース前に高い信頼性と性能を確認します。",
       },
       {
         step: 5,
         title: "展開",
-        description: "構成、セキュリティ、監視。初日から安定して動く状態にする。",
+        description:
+          "本番環境への展開を一貫して担当し、構成・セキュリティ・監視を整えて初日から安定して動く状態にします。",
       },
       {
         step: 6,
         title: "保守とサポート",
-        description: "リリース後も続く更新、性能改善、サポート。",
+        description:
+          "リリース後も定期的な更新、性能改善、迅速な技術サポートで、円滑な運用を継続的に支えます。",
       },
     ],
     cta: {
-      title: "作り始めましょうか？",
+      title: "プロジェクトを始めましょうか？",
       link: "お問い合わせ",
     },
   },

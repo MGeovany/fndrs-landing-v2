@@ -1,79 +1,134 @@
 export const whyUsText = {
   en: {
-    heading: "How we work",
-    quote: "We work on a few things at a time.",
-    ctaTitle: "Get in touch.",
-    ctaButton: "Contact",
+    heading: "Why Hire Our Team?",
+    quote: "A Complete Team Ready to Work. No Need to Search Separately",
+    ctaTitle: "Hire Our Team Right Now!!!",
+    ctaButton: "Get Started",
     reasons: [
       {
         number: "1",
-        title: "The same people",
+        title: "Complete Team in One Package",
         description:
-          "Product, design, engineering and infrastructure. Nobody in between.",
+          "Developers, designers, security experts and cloud specialists in one team. No separate hires needed.",
       },
       {
         number: "2",
-        title: "As a product team",
+        title: "Trained and Ready to Work",
         description:
-          "Sometimes we come in as the product team of a company that is already running.",
+          "Trained, prepared and productive from day one, with no ramp-up before your project moves.",
       },
       {
         number: "3",
-        title: "As part of the company",
+        title: "Versatile Expertise",
         description:
-          "When the business is one we actually want to be in, we look for a way into the company, not just the project.",
+          "Frontend to backend, design to deployment, security to cloud. We adapt to any requirement.",
+      },
+      {
+        number: "4",
+        title: "Expert in Modern Technologies",
+        description:
+          "AI, cloud platforms, DevOps and modern frameworks for scalable, future-ready solutions.",
+      },
+      {
+        number: "5",
+        title: "Dedicated Partnership",
+        description:
+          "We integrate with your team and stay past delivery, optimizing and supporting as you grow.",
+      },
+      {
+        number: "6",
+        title: "Transparent Communication & Reliable Support",
+        description:
+          "Regular updates, open channels and dedicated support keep the project running smoothly.",
       },
     ],
   },
   es: {
-    heading: "Cómo trabajamos",
-    quote: "Trabajamos en pocas cosas a la vez.",
-    ctaTitle: "Escríbenos.",
-    ctaButton: "Contacto",
+    heading: "¿Por qué contratar nuestro equipo?",
+    quote:
+      "Un Equipo Completo Listo para Trabajar. No Necesitas Buscar por Separado",
+    ctaTitle: "¡Contrata Nuestro Equipo Ahora Mismo!",
+    ctaButton: "Empezar",
     reasons: [
       {
         number: "1",
-        title: "Las mismas personas",
+        title: "Equipo Completo en un Solo Paquete",
         description:
-          "Producto, diseño, ingeniería e infraestructura. Nadie más en medio.",
+          "Desarrolladores, diseñadores y especialistas en seguridad y nube en un solo equipo.",
       },
       {
         number: "2",
-        title: "Como equipo de producto",
+        title: "Entrenados y Listos para Trabajar",
         description:
-          "A veces entramos como el equipo de producto de una empresa que ya está en marcha.",
+          "Entrenados, preparados y productivos desde el primer día, sin tiempo de arranque.",
       },
       {
         number: "3",
-        title: "Como parte de la empresa",
+        title: "Expertise Versátil",
         description:
-          "Cuando el negocio nos interesa de verdad, buscamos entrar en la empresa y no solo en el proyecto.",
+          "Del frontend al backend, del diseño al despliegue y la nube. Nos adaptamos a todo.",
+      },
+      {
+        number: "4",
+        title: "Expertos en Tecnologías Modernas",
+        description:
+          "IA, plataformas cloud, DevOps y frameworks modernos para soluciones escalables.",
+      },
+      {
+        number: "5",
+        title: "Socio Dedicado",
+        description:
+          "Nos integramos con tu equipo y seguimos tras la entrega, optimizando y dando soporte.",
+      },
+      {
+        number: "6",
+        title: "Comunicación Transparente y Soporte Confiable",
+        description:
+          "Actualizaciones regulares, canales abiertos y soporte dedicado durante el proyecto.",
       },
     ],
   },
   ja: {
-    heading: "働き方",
-    quote: "同時に抱えるのは、いつも少しだけ。",
-    ctaTitle: "お問い合わせください。",
-    ctaButton: "連絡する",
+    heading: "なぜ私たちのチームを雇うのか？",
+    quote: "完全なチームが働く準備ができている。別々に探す必要はない",
+    ctaTitle: "今すぐ私たちのチームを雇おう！",
+    ctaButton: "始める",
     reasons: [
       {
         number: "1",
-        title: "同じ人間が担当する",
+        title: "1つのパッケージで完全なチーム",
         description:
-          "プロダクト、デザイン、エンジニアリング、インフラ。間に誰も入らない。",
+          "開発者、デザイナー、セキュリティとクラウドの専門家を1つのチームで。個別に探す必要はありません。",
       },
       {
         number: "2",
-        title: "プロダクトチームとして",
+        title: "訓練され、働く準備ができている",
         description:
-          "すでに動いている会社の、プロダクトチームとして入ることもある。",
+          "訓練され準備が整ったチーム。初日からプロジェクトを前に進めます。",
       },
       {
         number: "3",
-        title: "会社の一員として",
+        title: "多様な専門知識",
         description:
-          "本当に関わりたい事業なら、案件としてではなく会社の側に入る道を探す。",
+          "フロントエンドからバックエンド、デザインからデプロイ、クラウドまで柔軟に対応します。",
+      },
+      {
+        number: "4",
+        title: "最新技術の専門家",
+        description:
+          "AI、クラウド、DevOps、最新フレームワークでスケーラブルな基盤を構築します。",
+      },
+      {
+        number: "5",
+        title: "専任のパートナーシップ",
+        description:
+          "チームに溶け込み、納品後も最適化とサポートを継続します。",
+      },
+      {
+        number: "6",
+        title: "透明なコミュニケーションと信頼できるサポート",
+        description:
+          "定期的な更新とオープンな連絡体制、専任サポートで円滑に進行します。",
       },
     ],
   },

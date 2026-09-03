@@ -10,7 +10,7 @@ import {
   type ReactNode,
 } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { useLanguage } from "@/hooks/use-language";
 import { useAnalytics } from "@/hooks/use-posthog";
 import { heroText } from "@/constants/hero-section-translations";
@@ -354,6 +354,47 @@ function Headline({ lines }: { lines: { text: string; variant?: "accent" | "bold
   );
 }
 
+// ─── Meta pills row ───────────────────────────────────────────────────────
+function MetaPills({
+  pills,
+  livePill,
+}: {
+  pills: { num: string; label: string; href?: string }[];
+  livePill: string;
+}) {
+  return (
+    <div className="meta-row">
+      {pills.map((p) => {
+        const inner = (
+          <>
+            <span className="meta-num">{p.num}</span>
+            <span className="meta-label">{p.label}</span>
+          </>
+        );
+        return p.href ? (
+          <a
+            key={p.label}
+            className="meta-pill meta-pill-link"
+            href={p.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {inner}
+          </a>
+        ) : (
+          <div className="meta-pill" key={p.label}>
+            {inner}
+          </div>
+        );
+      })}
+      <div className="meta-pill live">
+        <span className="meta-dot" />
+        <span className="meta-label">{livePill}</span>
+      </div>
+    </div>
+  );
+}
+
 // ─── Main Hero ────────────────────────────────────────────────────────────
 export default function Hero() {
   const router = useRouter();
@@ -398,7 +439,6 @@ export default function Hero() {
             dangerouslySetInnerHTML={{ __html: t.sub }}
           />
 
-          {/* One way out of the hero. The work speaks further down. */}
           <div className="cta-row">
             <MagneticButton
               primary
@@ -410,7 +450,18 @@ export default function Hero() {
             >
               {t.ctaPrimary}
             </MagneticButton>
+            <MagneticButton
+              icon={<ArrowDown strokeWidth={2.5} />}
+              onClick={() => {
+                trackButtonClick("view_services", "hero_section");
+                router.push(`/${language}/#services`);
+              }}
+            >
+              {t.ctaSecondary}
+            </MagneticButton>
           </div>
+
+          <MetaPills pills={t.metaPills} livePill={t.metaLive} />
         </div>
       </div>
     </section>

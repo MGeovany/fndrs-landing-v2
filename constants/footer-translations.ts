@@ -1,19 +1,19 @@
 export const footerText = {
   en: {
     collaborationNote: "Open for any collaboration",
-    consultationTitle: "Get in touch.",
+    consultationTitle:
+      "Hire our development team now to work on your project!",
     introParagraph:
-      "Tell us what you are building. We also still take contract work.",
-    cta: "Contact",
+      "Ready to hire a complete development team? Contact us to discuss how FNDRS can provide you with developers, designers, engineers, and experts ready to work on your project.",
+    cta: "Get started today",
     contactEmail: "Email address",
     contactLabel: "contact@fndrs.com",
     socialTitle: "Visit us on:",
     navTitle: "Navigation",
     navLinks: [
       { label: "Homepage", href: "#home" },
-      { label: "Allons", href: "/#allons" },
-      { label: "Team", href: "/#team" },
-      { label: "Capabilities", href: "/#services" },
+      { label: "Services", href: "/#services" },
+      { label: "Our Process", href: "/#process" },
     ],
     companyTitle: "Company",
     companyLinks: [
@@ -31,19 +31,19 @@ export const footerText = {
 
   es: {
     collaborationNote: "Abiertos a cualquier colaboración",
-    consultationTitle: "Escríbenos.",
+    consultationTitle:
+      "¡Contrata nuestro equipo de desarrollo ahora para trabajar en tu proyecto!",
     introParagraph:
-      "Cuéntanos qué estás construyendo. También seguimos tomando trabajo por contrato.",
-    cta: "Contacto",
+      "¿Listo para contratar un equipo completo de desarrollo? Contáctanos para conversar sobre cómo FNDRS puede proporcionarte desarrolladores, diseñadores, ingenieros y expertos listos para trabajar en tu proyecto.",
+    cta: "Empezar ahora",
     contactEmail: "Correo electrónico",
     contactLabel: "contacto@fndrs.com",
     socialTitle: "Visítanos en:",
     navTitle: "Navegación",
     navLinks: [
       { label: "Inicio", href: "/#home" },
-      { label: "Allons", href: "/#allons" },
-      { label: "Equipo", href: "/#team" },
-      { label: "Capacidades", href: "/#services" },
+      { label: "Servicios", href: "/#services" },
+      { label: "Nuestro proceso", href: "/#process" },
     ],
     companyTitle: "Compañía",
     companyLinks: [
@@ -61,19 +61,19 @@ export const footerText = {
 
   ja: {
     collaborationNote: "どんなコラボレーションでも歓迎します",
-    consultationTitle: "お問い合わせください。",
+    consultationTitle:
+      "今すぐ私たちの開発チームを雇って、あなたのプロジェクトで働きましょう！",
     introParagraph:
-      "つくっているものを教えてほしい。受託の仕事も引き続き受けている。",
-    cta: "連絡する",
+      "完全な開発チームを雇う準備はできていますか？お気軽にご連絡ください。FNDRSがあなたに開発者、デザイナー、エンジニア、専門家のチームを提供し、プロジェクトで働く準備ができています。",
+    cta: "今すぐ始める",
     contactEmail: "メールアドレス",
     contactLabel: "contact@fndrs.com",
     socialTitle: "フォローはこちら：",
     navTitle: "ナビゲーション",
     navLinks: [
       { label: "ホーム", href: "/#home" },
-      { label: "Allons", href: "/#allons" },
-      { label: "チーム", href: "/#team" },
-      { label: "専門分野", href: "/#services" },
+      { label: "サービス", href: "/#services" },
+      { label: "私たちのプロセス", href: "/#process" },
     ],
     companyTitle: "会社情報",
     companyLinks: [
