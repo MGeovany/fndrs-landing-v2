@@ -3,7 +3,7 @@ export const footerText = {
     collaborationNote: "Open for any collaboration",
     consultationTitle: "Get in touch.",
     introParagraph:
-      "If you have something real underway, write to us. We also still take contract work.",
+      "Tell us what you are building. We also still take contract work.",
     cta: "Contact",
     contactEmail: "Email address",
     contactLabel: "contact@fndrs.com",
@@ -33,7 +33,7 @@ export const footerText = {
     collaborationNote: "Abiertos a cualquier colaboración",
     consultationTitle: "Escríbenos.",
     introParagraph:
-      "Si tienes algo real en marcha, escríbenos. También seguimos tomando trabajo por contrato.",
+      "Cuéntanos qué estás construyendo. También seguimos tomando trabajo por contrato.",
     cta: "Contacto",
     contactEmail: "Correo electrónico",
     contactLabel: "contacto@fndrs.com",
@@ -63,7 +63,7 @@ export const footerText = {
     collaborationNote: "どんなコラボレーションでも歓迎します",
     consultationTitle: "お問い合わせください。",
     introParagraph:
-      "動いているものがあるなら、連絡してほしい。受託の仕事も引き続き受けている。",
+      "つくっているものを教えてほしい。受託の仕事も引き続き受けている。",
     cta: "連絡する",
     contactEmail: "メールアドレス",
     contactLabel: "contact@fndrs.com",

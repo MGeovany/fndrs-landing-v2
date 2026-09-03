@@ -1,80 +1,72 @@
 export const servicesText = {
   en: {
     title: "Capabilities",
-    description:
-      "Product, design, engineering, infrastructure and security. All of it in house.",
+    description: "We do this ourselves. None of it is subcontracted.",
     services: [
       {
-        title: "Software Developers",
-        description: "Build and maintain applications across modern stacks.",
+        title: "Product and design",
+        description:
+          "Interfaces, design systems and the product decisions behind them.",
       },
       {
-        title: "UX/UI Designers",
-        description: "Design interfaces and the systems behind them.",
+        title: "Engineering",
+        description:
+          "Web and mobile applications, and the architecture underneath.",
       },
       {
-        title: "Software Engineers",
-        description: "Architect systems and keep code quality high.",
+        title: "Infrastructure",
+        description: "Cloud, deployments and what it takes to run in production.",
       },
       {
-        title: "Cloud & DevOps Specialists",
-        description: "Infrastructure and deployment pipelines.",
-      },
-      {
-        title: "Security Experts",
-        description: "Protect the systems and keep them compliant.",
+        title: "Security",
+        description: "Protecting systems and keeping them compliant.",
       },
     ],
   },
   es: {
     title: "Capacidades",
-    description:
-      "Producto, diseño, ingeniería, infraestructura y seguridad. Todo lo hace el mismo equipo.",
+    description: "Lo hacemos nosotros. Nada de esto se subcontrata.",
     services: [
       {
-        title: "Desarrolladores de Software",
-        description: "Construyen y mantienen aplicaciones en stacks modernos.",
+        title: "Producto y diseño",
+        description:
+          "Interfaces, sistemas de diseño y las decisiones de producto detrás.",
       },
       {
-        title: "Diseñadores UX/UI",
-        description: "Diseñan interfaces y los sistemas detrás de ellas.",
+        title: "Ingeniería",
+        description:
+          "Aplicaciones web y móviles, y la arquitectura que las sostiene.",
       },
       {
-        title: "Ingenieros de Software",
-        description: "Diseñan la arquitectura y cuidan la calidad del código.",
+        title: "Infraestructura",
+        description:
+          "Nube, despliegues y lo que haga falta para que corra en producción.",
       },
       {
-        title: "Especialistas en Cloud & DevOps",
-        description: "Infraestructura y pipelines de despliegue.",
-      },
-      {
-        title: "Expertos en Seguridad",
-        description: "Protegen los sistemas y aseguran cumplimiento.",
+        title: "Seguridad",
+        description: "Proteger los sistemas y mantener el cumplimiento.",
       },
     ],
   },
   ja: {
-    title: "専門分野",
-    description: "プロダクト、デザイン、エンジニアリング、インフラ、セキュリティ。すべて同じチームで。",
+    title: "できること",
+    description: "すべて自分たちで手を動かす。外注はしない。",
     services: [
       {
-        title: "ソフトウェア開発者",
-        description: "最新の技術スタックでアプリケーションを構築・運用する。",
+        title: "プロダクトとデザイン",
+        description:
+          "インターフェース、デザインシステム、その裏にあるプロダクトの判断。",
       },
       {
-        title: "UX/UIデザイナー",
-        description: "インターフェースとその裏側の仕組みを設計する。",
+        title: "エンジニアリング",
+        description: "ウェブとモバイルのアプリケーション、それを支える設計。",
       },
       {
-        title: "ソフトウェアエンジニア",
-        description: "アーキテクチャを設計し、コード品質を維持する。",
+        title: "インフラ",
+        description: "クラウド、デプロイ、本番で動かすために必要なもの。",
       },
       {
-        title: "クラウド＆DevOpsスペシャリスト",
-        description: "クラウド基盤とデプロイパイプラインを担当する。",
-      },
-      {
-        title: "セキュリティ専門家",
+        title: "セキュリティ",
         description: "システムを守り、コンプライアンスを保つ。",
       },
     ],

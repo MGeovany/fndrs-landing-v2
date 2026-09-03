@@ -11,9 +11,9 @@ export default function Home() {
     <div>
       <HomeSection />
       <Allons />
-      <TeamSection />
       <WhyUs />
       <Services />
+      <TeamSection />
     </div>
   );
 }

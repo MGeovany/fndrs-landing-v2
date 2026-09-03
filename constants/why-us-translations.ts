@@ -13,14 +13,15 @@ export const whyUsText = {
       },
       {
         number: "2",
-        title: "A few things at a time",
-        description: "A couple of products, not a roster of accounts.",
+        title: "As a product team",
+        description:
+          "Sometimes we come in as the product team of a company that is already running.",
       },
       {
         number: "3",
-        title: "Contract work too",
+        title: "As part of the company",
         description:
-          "We still build software for other companies. In some cases the deal includes a stake in what gets built.",
+          "When the business is one we actually want to be in, we look for a way into the company, not just the project.",
       },
     ],
   },
@@ -38,14 +39,15 @@ export const whyUsText = {
       },
       {
         number: "2",
-        title: "Pocas cosas a la vez",
-        description: "Un par de productos, no una cartera de cuentas.",
+        title: "Como equipo de producto",
+        description:
+          "A veces entramos como el equipo de producto de una empresa que ya está en marcha.",
       },
       {
         number: "3",
-        title: "También por contrato",
+        title: "Como parte de la empresa",
         description:
-          "Seguimos construyendo software para otras empresas. En algunos casos el acuerdo incluye participación en lo que se construye.",
+          "Cuando el negocio nos interesa de verdad, buscamos entrar en la empresa y no solo en el proyecto.",
       },
     ],
   },
@@ -63,14 +65,15 @@ export const whyUsText = {
       },
       {
         number: "2",
-        title: "同時に抱えるのは少数",
-        description: "案件の一覧ではなく、数個のプロダクト。",
+        title: "プロダクトチームとして",
+        description:
+          "すでに動いている会社の、プロダクトチームとして入ることもある。",
       },
       {
         number: "3",
-        title: "受託の仕事も続けている",
+        title: "会社の一員として",
         description:
-          "他社のソフトウェアもつくる。条件によっては、つくるものへの参加を含む。",
+          "本当に関わりたい事業なら、案件としてではなく会社の側に入る道を探す。",
       },
     ],
   },

@@ -53,7 +53,7 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     headingPart1: "There are three of us.",
     sectionLabel: "THE TEAM",
     description:
-      "Design, engineering and infrastructure. The same people build Allons and the contract work.",
+      "Design, engineering and infrastructure. We have been doing this for years.",
     badge: "Open to collaborations",
     members: [
       {
@@ -90,7 +90,7 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     headingPart1: "Somos tres.",
     sectionLabel: "EL EQUIPO",
     description:
-      "Diseño, ingeniería e infraestructura. Las mismas personas hacen Allons y el trabajo por contrato.",
+      "Diseño, ingeniería e infraestructura. Llevamos años en esto.",
     badge: "Abiertos a colaboraciones",
     members: [
       {
@@ -127,7 +127,7 @@ export const teamText: Record<"en" | "es" | "ja", TeamTextLocale> = {
     headingPart1: "私たちは三人。",
     sectionLabel: "チーム",
     description:
-      "デザイン、エンジニアリング、インフラ。Allonsも受託の仕事も、同じ人間がつくっている。",
+      "デザイン、エンジニアリング、インフラ。もう何年もこれをやっている。",
     badge: "コラボレーション歓迎",
     members: [
       {
