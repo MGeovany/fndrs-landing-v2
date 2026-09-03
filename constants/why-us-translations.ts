@@ -1,134 +1,133 @@
 export const whyUsText = {
   en: {
-    heading: "Why Hire Our Team?",
-    quote: "A Complete Team Ready to Work. No Need to Search Separately",
-    ctaTitle: "Hire Our Team Right Now!!!",
+    heading: "Why Build With Us?",
+    quote: "You Bring the Business. We Bring the Product Team.",
+    ctaTitle: "Have a Product in Mind?",
     ctaButton: "Get Started",
     reasons: [
       {
         number: "1",
-        title: "Complete Team in One Package",
+        title: "One Product Team, End to End",
         description:
-          "Developers, designers, security experts and cloud specialists in one team. No separate hires needed.",
+          "Engineering, design, infrastructure, and security in a single team, so you're not stitching together freelancers or agencies.",
       },
       {
         number: "2",
-        title: "Trained and Ready to Work",
+        title: "We Share the Risk",
         description:
-          "Trained, prepared and productive from day one, with no ramp-up before your project moves.",
+          "Depending on the opportunity, we work through milestones, reduced upfront cost, equity, or a share of revenue, not just an invoice.",
       },
       {
         number: "3",
-        title: "Versatile Expertise",
+        title: "Selective by Design",
         description:
-          "Frontend to backend, design to deployment, security to cloud. We adapt to any requirement.",
+          "We take on a small number of products at a time. What matters to us is the opportunity, the market, and the founder's commitment.",
       },
       {
         number: "4",
-        title: "Expert in Modern Technologies",
+        title: "We Build, Not Just Advise",
         description:
-          "AI, cloud platforms, DevOps and modern frameworks for scalable, future-ready solutions.",
+          "We're the team that ships the product, from the first prototype to the version your users depend on.",
       },
       {
         number: "5",
-        title: "Dedicated Partnership",
+        title: "Deep Technical Expertise",
         description:
-          "We integrate with your team and stay past delivery, optimizing and supporting as you grow.",
+          "Modern stacks, cloud infrastructure, and security built in from day one, not bolted on later.",
       },
       {
         number: "6",
-        title: "Transparent Communication & Reliable Support",
+        title: "In It Past Launch",
         description:
-          "Regular updates, open channels and dedicated support keep the project running smoothly.",
+          "Allons is the clearest example: we keep building and growing the product alongside the team, milestone after milestone.",
       },
     ],
   },
   es: {
-    heading: "¿Por qué contratar nuestro equipo?",
-    quote:
-      "Un Equipo Completo Listo para Trabajar. No Necesitas Buscar por Separado",
-    ctaTitle: "¡Contrata Nuestro Equipo Ahora Mismo!",
+    heading: "¿Por Qué Construir Con Nosotros?",
+    quote: "Tú Traes el Negocio. Nosotros el Equipo de Producto.",
+    ctaTitle: "¿Tienes un Producto en Mente?",
     ctaButton: "Empezar",
     reasons: [
       {
         number: "1",
-        title: "Equipo Completo en un Solo Paquete",
+        title: "Un Solo Equipo de Producto, de Punta a Punta",
         description:
-          "Desarrolladores, diseñadores y especialistas en seguridad y nube en un solo equipo.",
+          "Ingeniería, diseño, infraestructura y seguridad en un solo equipo, sin armar un rompecabezas de freelancers o agencias.",
       },
       {
         number: "2",
-        title: "Entrenados y Listos para Trabajar",
+        title: "Compartimos el Riesgo",
         description:
-          "Entrenados, preparados y productivos desde el primer día, sin tiempo de arranque.",
+          "Según la oportunidad, trabajamos por hitos, con menor costo inicial, equity o un porcentaje de ingresos, no solo una factura.",
       },
       {
         number: "3",
-        title: "Expertise Versátil",
+        title: "Selectivos por Diseño",
         description:
-          "Del frontend al backend, del diseño al despliegue y la nube. Nos adaptamos a todo.",
+          "Tomamos pocos productos a la vez. Lo que nos importa es la oportunidad, el mercado y el compromiso del founder.",
       },
       {
         number: "4",
-        title: "Expertos en Tecnologías Modernas",
+        title: "Construimos, No Solo Asesoramos",
         description:
-          "IA, plataformas cloud, DevOps y frameworks modernos para soluciones escalables.",
+          "Somos el equipo que lanza el producto, desde el primer prototipo hasta la versión de la que dependen tus usuarios.",
       },
       {
         number: "5",
-        title: "Socio Dedicado",
+        title: "Expertise Técnica Profunda",
         description:
-          "Nos integramos con tu equipo y seguimos tras la entrega, optimizando y dando soporte.",
+          "Stacks modernos, infraestructura en la nube y seguridad integrados desde el día uno, no como un parche.",
       },
       {
         number: "6",
-        title: "Comunicación Transparente y Soporte Confiable",
+        title: "Presentes Después del Lanzamiento",
         description:
-          "Actualizaciones regulares, canales abiertos y soporte dedicado durante el proyecto.",
+          "Allons es el ejemplo más claro: seguimos construyendo y creciendo el producto junto al equipo, hito tras hito.",
       },
     ],
   },
   ja: {
-    heading: "なぜ私たちのチームを雇うのか？",
-    quote: "完全なチームが働く準備ができている。別々に探す必要はない",
-    ctaTitle: "今すぐ私たちのチームを雇おう！",
+    heading: "なぜ私たちと作るのか？",
+    quote: "事業はあなたから、プロダクトチームは私たちから。",
+    ctaTitle: "作りたいプロダクトがありますか？",
     ctaButton: "始める",
     reasons: [
       {
         number: "1",
-        title: "1つのパッケージで完全なチーム",
+        title: "エンドツーエンドの一つのプロダクトチーム",
         description:
-          "開発者、デザイナー、セキュリティとクラウドの専門家を1つのチームで。個別に探す必要はありません。",
+          "エンジニアリング、デザイン、インフラ、セキュリティを一つのチームで。フリーランスや複数の制作会社をつなぎ合わせる必要はありません。",
       },
       {
         number: "2",
-        title: "訓練され、働く準備ができている",
+        title: "リスクを分かち合う",
         description:
-          "訓練され準備が整ったチーム。初日からプロジェクトを前に進めます。",
+          "機会に応じて、マイルストーン制、初期費用の圧縮、エクイティ、収益の一部など、請求書だけに留まらない形で関わります。",
       },
       {
         number: "3",
-        title: "多様な専門知識",
+        title: "選び抜くパートナーシップ",
         description:
-          "フロントエンドからバックエンド、デザインからデプロイ、クラウドまで柔軟に対応します。",
+          "同時に手がけるプロダクトはごく少数。大切にしているのは機会そのもの、市場、そして創業者のコミットメントです。",
       },
       {
         number: "4",
-        title: "最新技術の専門家",
+        title: "助言だけでなく、実際に作る",
         description:
-          "AI、クラウド、DevOps、最新フレームワークでスケーラブルな基盤を構築します。",
+          "最初のプロトタイプからユーザーが頼るバージョンまで、実際にプロダクトを形にするのが私たちです。",
       },
       {
         number: "5",
-        title: "専任のパートナーシップ",
+        title: "深い技術力",
         description:
-          "チームに溶け込み、納品後も最適化とサポートを継続します。",
+          "最新のスタック、クラウド基盤、セキュリティを最初から組み込みます。後付けではありません。",
       },
       {
         number: "6",
-        title: "透明なコミュニケーションと信頼できるサポート",
+        title: "ローンチ後も伴走する",
         description:
-          "定期的な更新とオープンな連絡体制、専任サポートで円滑に進行します。",
+          "Allonsがその一番わかりやすい例です。マイルストーンを重ねながら、チームと一緒にプロダクトを育て続けています。",
       },
     ],
   },

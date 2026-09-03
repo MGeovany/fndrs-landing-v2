@@ -2,7 +2,7 @@ export const stagesText = {
   en: {
     sectionTitle: "PROCESS",
     intro:
-      "We work closely with you at every step, with personalized attention to your preferences, so nothing about scope, progress or delivery catches you by surprise.",
+      "We work closely with you at every step, so nothing about scope, progress or delivery catches you by surprise, whether it's a fixed engagement or a product we're building together.",
     stages: [
       {
         step: 1,
@@ -42,14 +42,14 @@ export const stagesText = {
       },
     ],
     cta: {
-      title: "Start a project?",
+      title: "Ready to build?",
       link: "Contact Us",
     },
   },
   es: {
     sectionTitle: "PROCESO",
     intro:
-      "Trabajamos cerca de ti en cada etapa, con atención personalizada a tus preferencias, para que nada del alcance, el avance o la entrega te tome por sorpresa.",
+      "Trabajamos de cerca contigo en cada etapa, para que nada del alcance, el avance o la entrega te tome por sorpresa, sea un proyecto puntual o un producto que construimos juntos.",
     stages: [
       {
         step: 1,
@@ -89,14 +89,14 @@ export const stagesText = {
       },
     ],
     cta: {
-      title: "¿Iniciamos tu proyecto?",
+      title: "¿Listos para construir?",
       link: "Contáctanos",
     },
   },
   ja: {
     sectionTitle: "プロセス",
     intro:
-      "すべての工程であなたと密に連携し、ご希望に合わせた対応を行うことで、範囲・進捗・納品のいずれにも想定外が起きないようにします。",
+      "各工程であなたと密に連携し、範囲・進捗・納品のいずれも想定外にならないようにします。単発の依頼でも、一緒に育てるプロダクトでも同じです。",
     stages: [
       {
         step: 1,
@@ -136,7 +136,7 @@ export const stagesText = {
       },
     ],
     cta: {
-      title: "プロジェクトを始めましょうか？",
+      title: "作り始めましょうか？",
       link: "お問い合わせ",
     },
   },

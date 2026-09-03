@@ -1,8 +1,9 @@
 export const contactFormText = {
   en: {
-    titleAccent: "Hire Our Team!",
-    titleRest: "and let's work on your project",
-    subtitle: "Need a development team? Contact us and let's discuss your project.",
+    titleAccent: "Bring Us the Opportunity",
+    titleRest: "and let's figure out how we build it together",
+    subtitle:
+      "Whether you need a product team or a partner to build with, tell us what you're working on.",
     nameLabel: "Name*",
     namePlaceholder: "Hello...",
     emailLabel: "Email*",
@@ -27,6 +28,7 @@ export const contactFormText = {
       message: "Message should be at least 10 characters",
     },
     serviceOptions: [
+      { value: "product-partnership", label: "Product Partnership" },
       { value: "mobile-app", label: "Mobile App Development" },
       { value: "web-development", label: "Web Development" },
       { value: "fullstack", label: "Full-Stack Development" },
@@ -40,13 +42,15 @@ export const contactFormText = {
       { value: "10k-20k", label: "$10k - $20k" },
       { value: "20k-50k", label: "$20k - $50k" },
       { value: "50k+", label: ">$50k" },
+      { value: "milestone-equity", label: "Milestones / equity based" },
     ],
   },
 
   es: {
-    titleAccent: "¡Contrata Nuestro Equipo!",
-    titleRest: "y trabajemos en tu proyecto",
-    subtitle: "¿Necesitas un equipo de desarrollo? Contáctanos y hablemos de tu proyecto.",
+    titleAccent: "Cuéntanos la Oportunidad",
+    titleRest: "y veamos cómo construirlo juntos",
+    subtitle:
+      "Ya sea que necesites un equipo de producto o un socio para construir, cuéntanos en qué estás trabajando.",
     nameLabel: "Nombre*",
     namePlaceholder: "Hola...",
     emailLabel: "Correo*",
@@ -71,6 +75,7 @@ export const contactFormText = {
       message: "El mensaje debe tener al menos 10 caracteres",
     },
     serviceOptions: [
+      { value: "product-partnership", label: "Alianza de Producto" },
       { value: "mobile-app", label: "Desarrollo de App Móvil" },
       { value: "web-development", label: "Desarrollo Web" },
       { value: "fullstack", label: "Desarrollo Full-Stack" },
@@ -84,13 +89,15 @@ export const contactFormText = {
       { value: "10k-20k", label: "$10k - $20k" },
       { value: "20k-50k", label: "$20k - $50k" },
       { value: "50k+", label: ">$50k" },
+      { value: "milestone-equity", label: "Por hitos / equity" },
     ],
   },
 
   ja: {
-    titleAccent: "私たちのチームを雇う！",
-    titleRest: "あなたのプロジェクトで働きましょう",
-    subtitle: "開発チームが必要ですか？お気軽にご連絡ください。プロジェクトについて話し合いましょう。",
+    titleAccent: "機会を聞かせてください",
+    titleRest: "一緒にどう形にするか考えましょう",
+    subtitle:
+      "プロダクトチームが必要でも、一緒に作るパートナーが必要でも、今取り組んでいることを教えてください。",
     nameLabel: "名前*",
     namePlaceholder: "こんにちは...",
     emailLabel: "メールアドレス*",
@@ -115,6 +122,7 @@ export const contactFormText = {
       message: "メッセージは10文字以上で入力してください",
     },
     serviceOptions: [
+      { value: "product-partnership", label: "プロダクトパートナーシップ" },
       { value: "mobile-app", label: "モバイルアプリ開発" },
       { value: "web-development", label: "ウェブ開発" },
       { value: "fullstack", label: "フルスタック開発" },
@@ -128,6 +136,7 @@ export const contactFormText = {
       { value: "10k-20k", label: "$10k - $20k" },
       { value: "20k-50k", label: "$20k - $50k" },
       { value: "50k+", label: ">$50k" },
+      { value: "milestone-equity", label: "マイルストーン／エクイティ" },
     ],
   },
 };

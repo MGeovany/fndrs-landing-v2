@@ -1,10 +1,9 @@
 export const footerText = {
   en: {
     collaborationNote: "Open for any collaboration",
-    consultationTitle:
-      "Hire our development team now to work on your project!",
+    consultationTitle: "Have a product worth building?",
     introParagraph:
-      "Ready to hire a complete development team? Contact us to discuss how FNDRS can provide you with developers, designers, engineers, and experts ready to work on your project.",
+      "Tell us about the opportunity. We'll tell you how FNDRS can help build it, as your product team, your partner, or both.",
     cta: "Get started today",
     contactEmail: "Email address",
     contactLabel: "contact@fndrs.com",
@@ -31,10 +30,9 @@ export const footerText = {
 
   es: {
     collaborationNote: "Abiertos a cualquier colaboración",
-    consultationTitle:
-      "¡Contrata nuestro equipo de desarrollo ahora para trabajar en tu proyecto!",
+    consultationTitle: "¿Tienes un producto que vale la pena construir?",
     introParagraph:
-      "¿Listo para contratar un equipo completo de desarrollo? Contáctanos para conversar sobre cómo FNDRS puede proporcionarte desarrolladores, diseñadores, ingenieros y expertos listos para trabajar en tu proyecto.",
+      "Cuéntanos la oportunidad. Te decimos cómo FNDRS puede ayudarte a construirla, como tu equipo de producto, como tu socio, o ambos.",
     cta: "Empezar ahora",
     contactEmail: "Correo electrónico",
     contactLabel: "contacto@fndrs.com",
@@ -61,10 +59,9 @@ export const footerText = {
 
   ja: {
     collaborationNote: "どんなコラボレーションでも歓迎します",
-    consultationTitle:
-      "今すぐ私たちの開発チームを雇って、あなたのプロジェクトで働きましょう！",
+    consultationTitle: "作る価値のあるプロダクトがありますか？",
     introParagraph:
-      "完全な開発チームを雇う準備はできていますか？お気軽にご連絡ください。FNDRSがあなたに開発者、デザイナー、エンジニア、専門家のチームを提供し、プロジェクトで働く準備ができています。",
+      "あなたの機会について教えてください。FNDRSがプロダクトチームとして、またはパートナーとして、どう力になれるかをお伝えします。",
     cta: "今すぐ始める",
     contactEmail: "メールアドレス",
     contactLabel: "contact@fndrs.com",

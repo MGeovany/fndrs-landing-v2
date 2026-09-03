@@ -1,8 +1,8 @@
 export const servicesText = {
   en: {
-    title: "Our Team's Expertise",
+    title: "What We Bring",
     description:
-      "A complete development team you can hire as one pack: developers, designers, engineers, security and cloud specialists.",
+      "The product team behind every partnership: developers, designers, engineers, and security and cloud specialists, working as one.",
     services: [
       {
         title: "Software Developers",
@@ -32,9 +32,9 @@ export const servicesText = {
     ],
   },
   es: {
-    title: "Expertise de Nuestro Equipo",
+    title: "Lo Que Aportamos",
     description:
-      "Un equipo de desarrollo completo que contratas de una vez: developers, diseñadores, ingenieros y especialistas en seguridad y nube.",
+      "El equipo de producto detrás de cada alianza: desarrolladores, diseñadores, ingenieros y especialistas en seguridad y nube, trabajando como uno solo.",
     services: [
       {
         title: "Desarrolladores de Software",
@@ -64,9 +64,9 @@ export const servicesText = {
     ],
   },
   ja: {
-    title: "私たちのチームの専門知識",
+    title: "提供するもの",
     description:
-      "開発者、デザイナー、エンジニア、セキュリティとクラウドの専門家が揃った開発チームを、まとめて採用できます。",
+      "すべてのパートナーシップを支えるプロダクトチーム。開発者、デザイナー、エンジニア、クラウドとセキュリティの専門家が一つになって動きます。",
     services: [
       {
         title: "ソフトウェア開発者",
