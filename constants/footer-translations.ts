@@ -1,17 +1,18 @@
 export const footerText = {
   en: {
     collaborationNote: "Open for any collaboration",
-    consultationTitle: "Have a product worth building?",
+    consultationTitle: "Get in touch.",
     introParagraph:
-      "Tell us about the opportunity. We'll tell you how FNDRS can help build it, as your product team, your partner, or both.",
-    cta: "Get started today",
+      "FNDRS takes on a small number of products at a time, sometimes as paid work, sometimes with more at stake.",
+    cta: "Contact",
     contactEmail: "Email address",
     contactLabel: "contact@fndrs.com",
     socialTitle: "Visit us on:",
     navTitle: "Navigation",
     navLinks: [
       { label: "Homepage", href: "#home" },
-      { label: "Services", href: "/#services" },
+      { label: "Allons", href: "/#allons" },
+      { label: "Capabilities", href: "/#services" },
       { label: "Our Process", href: "/#process" },
     ],
     companyTitle: "Company",
@@ -30,17 +31,18 @@ export const footerText = {
 
   es: {
     collaborationNote: "Abiertos a cualquier colaboración",
-    consultationTitle: "¿Tienes un producto que vale la pena construir?",
+    consultationTitle: "Escríbenos.",
     introParagraph:
-      "Cuéntanos la oportunidad. Te decimos cómo FNDRS puede ayudarte a construirla, como tu equipo de producto, como tu socio, o ambos.",
-    cta: "Empezar ahora",
+      "FNDRS toma pocos productos a la vez, a veces como trabajo pagado, a veces con más en juego.",
+    cta: "Contacto",
     contactEmail: "Correo electrónico",
     contactLabel: "contacto@fndrs.com",
     socialTitle: "Visítanos en:",
     navTitle: "Navegación",
     navLinks: [
       { label: "Inicio", href: "/#home" },
-      { label: "Servicios", href: "/#services" },
+      { label: "Allons", href: "/#allons" },
+      { label: "Capacidades", href: "/#services" },
       { label: "Nuestro proceso", href: "/#process" },
     ],
     companyTitle: "Compañía",
@@ -59,17 +61,18 @@ export const footerText = {
 
   ja: {
     collaborationNote: "どんなコラボレーションでも歓迎します",
-    consultationTitle: "作る価値のあるプロダクトがありますか？",
+    consultationTitle: "お問い合わせください。",
     introParagraph:
-      "あなたの機会について教えてください。FNDRSがプロダクトチームとして、またはパートナーとして、どう力になれるかをお伝えします。",
-    cta: "今すぐ始める",
+      "FNDRSは一度に少数のプロダクトだけを手がける。契約で終わることもあれば、深く関わることもある。",
+    cta: "連絡する",
     contactEmail: "メールアドレス",
     contactLabel: "contact@fndrs.com",
     socialTitle: "フォローはこちら：",
     navTitle: "ナビゲーション",
     navLinks: [
       { label: "ホーム", href: "/#home" },
-      { label: "サービス", href: "/#services" },
+      { label: "Allons", href: "/#allons" },
+      { label: "専門分野", href: "/#services" },
       { label: "私たちのプロセス", href: "/#process" },
     ],
     companyTitle: "会社情報",

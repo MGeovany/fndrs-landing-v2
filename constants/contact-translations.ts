@@ -1,9 +1,8 @@
 export const contactFormText = {
   en: {
-    titleAccent: "Bring Us the Opportunity",
-    titleRest: "and let's figure out how we build it together",
-    subtitle:
-      "Whether you need a product team or a partner to build with, tell us what you're working on.",
+    titleAccent: "FNDRS",
+    titleRest: "takes on a few products at a time.",
+    subtitle: "Sometimes as paid work. Sometimes with more at stake.",
     nameLabel: "Name*",
     namePlaceholder: "Hello...",
     emailLabel: "Email*",
@@ -47,10 +46,9 @@ export const contactFormText = {
   },
 
   es: {
-    titleAccent: "Cuéntanos la Oportunidad",
-    titleRest: "y veamos cómo construirlo juntos",
-    subtitle:
-      "Ya sea que necesites un equipo de producto o un socio para construir, cuéntanos en qué estás trabajando.",
+    titleAccent: "FNDRS",
+    titleRest: "toma pocos productos a la vez.",
+    subtitle: "A veces como trabajo pagado. A veces con más en juego.",
     nameLabel: "Nombre*",
     namePlaceholder: "Hola...",
     emailLabel: "Correo*",
@@ -94,10 +92,9 @@ export const contactFormText = {
   },
 
   ja: {
-    titleAccent: "機会を聞かせてください",
-    titleRest: "一緒にどう形にするか考えましょう",
-    subtitle:
-      "プロダクトチームが必要でも、一緒に作るパートナーが必要でも、今取り組んでいることを教えてください。",
+    titleAccent: "FNDRS",
+    titleRest: "は一度に少数のプロダクトだけを手がける。",
+    subtitle: "契約で終わることもあれば、深く関わることもある。",
     nameLabel: "名前*",
     namePlaceholder: "こんにちは...",
     emailLabel: "メールアドレス*",

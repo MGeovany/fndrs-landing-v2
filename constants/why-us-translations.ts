@@ -1,133 +1,79 @@
 export const whyUsText = {
   en: {
-    heading: "Why Build With Us?",
-    quote: "You Bring the Business. We Bring the Product Team.",
-    ctaTitle: "Have a Product in Mind?",
-    ctaButton: "Get Started",
+    heading: "How FNDRS Works",
+    quote: "FNDRS doesn't take every project. It gets involved in a few, closely.",
+    ctaTitle: "Get in touch.",
+    ctaButton: "Contact",
     reasons: [
       {
         number: "1",
-        title: "One Product Team, End to End",
+        title: "One team, start to finish",
         description:
-          "Engineering, design, infrastructure, and security in a single team, so you're not stitching together freelancers or agencies.",
+          "Product, design, engineering, and infrastructure sit with the same people. Nothing passes between agencies.",
       },
       {
         number: "2",
-        title: "We Share the Risk",
+        title: "Not always a flat fee",
         description:
-          "Depending on the opportunity, we work through milestones, reduced upfront cost, equity, or a share of revenue, not just an invoice.",
+          "On some products, FNDRS works for milestones, equity, or a share of revenue instead of an invoice.",
       },
       {
         number: "3",
-        title: "Selective by Design",
+        title: "Built by people who ship",
         description:
-          "We take on a small number of products at a time. What matters to us is the opportunity, the market, and the founder's commitment.",
-      },
-      {
-        number: "4",
-        title: "We Build, Not Just Advise",
-        description:
-          "We're the team that ships the product, from the first prototype to the version your users depend on.",
-      },
-      {
-        number: "5",
-        title: "Deep Technical Expertise",
-        description:
-          "Modern stacks, cloud infrastructure, and security built in from day one, not bolted on later.",
-      },
-      {
-        number: "6",
-        title: "In It Past Launch",
-        description:
-          "Allons is the clearest example: we keep building and growing the product alongside the team, milestone after milestone.",
+          "The same people write the code, design the screens, and run the infrastructure. No account managers in between.",
       },
     ],
   },
   es: {
-    heading: "¿Por Qué Construir Con Nosotros?",
-    quote: "Tú Traes el Negocio. Nosotros el Equipo de Producto.",
-    ctaTitle: "¿Tienes un Producto en Mente?",
-    ctaButton: "Empezar",
+    heading: "Cómo Trabaja FNDRS",
+    quote: "FNDRS no toma cualquier proyecto. Se involucra de cerca en unos pocos.",
+    ctaTitle: "Escríbenos.",
+    ctaButton: "Contacto",
     reasons: [
       {
         number: "1",
-        title: "Un Solo Equipo de Producto, de Punta a Punta",
+        title: "Un solo equipo, de principio a fin",
         description:
-          "Ingeniería, diseño, infraestructura y seguridad en un solo equipo, sin armar un rompecabezas de freelancers o agencias.",
+          "Producto, diseño, ingeniería e infraestructura los llevan las mismas personas. Nada pasa entre agencias.",
       },
       {
         number: "2",
-        title: "Compartimos el Riesgo",
+        title: "No siempre es una tarifa fija",
         description:
-          "Según la oportunidad, trabajamos por hitos, con menor costo inicial, equity o un porcentaje de ingresos, no solo una factura.",
+          "En algunos productos, FNDRS trabaja por hitos, equity o un porcentaje de ingresos, en vez de una factura.",
       },
       {
         number: "3",
-        title: "Selectivos por Diseño",
+        title: "Construido por quienes lo lanzan",
         description:
-          "Tomamos pocos productos a la vez. Lo que nos importa es la oportunidad, el mercado y el compromiso del founder.",
-      },
-      {
-        number: "4",
-        title: "Construimos, No Solo Asesoramos",
-        description:
-          "Somos el equipo que lanza el producto, desde el primer prototipo hasta la versión de la que dependen tus usuarios.",
-      },
-      {
-        number: "5",
-        title: "Expertise Técnica Profunda",
-        description:
-          "Stacks modernos, infraestructura en la nube y seguridad integrados desde el día uno, no como un parche.",
-      },
-      {
-        number: "6",
-        title: "Presentes Después del Lanzamiento",
-        description:
-          "Allons es el ejemplo más claro: seguimos construyendo y creciendo el producto junto al equipo, hito tras hito.",
+          "Las mismas personas escriben el código, diseñan las pantallas y corren la infraestructura. Sin gerentes de cuenta de por medio.",
       },
     ],
   },
   ja: {
-    heading: "なぜ私たちと作るのか？",
-    quote: "事業はあなたから、プロダクトチームは私たちから。",
-    ctaTitle: "作りたいプロダクトがありますか？",
-    ctaButton: "始める",
+    heading: "FNDRSの働き方",
+    quote: "FNDRSはどんな案件でも受けない。少数の案件に深く関わる。",
+    ctaTitle: "お問い合わせください。",
+    ctaButton: "連絡する",
     reasons: [
       {
         number: "1",
-        title: "エンドツーエンドの一つのプロダクトチーム",
+        title: "一つのチームが最初から最後まで",
         description:
-          "エンジニアリング、デザイン、インフラ、セキュリティを一つのチームで。フリーランスや複数の制作会社をつなぎ合わせる必要はありません。",
+          "プロダクト、デザイン、エンジニアリング、インフラを同じメンバーが担当します。制作会社間の引き継ぎはありません。",
       },
       {
         number: "2",
-        title: "リスクを分かち合う",
+        title: "定額とは限らない",
         description:
-          "機会に応じて、マイルストーン制、初期費用の圧縮、エクイティ、収益の一部など、請求書だけに留まらない形で関わります。",
+          "案件によっては、請求書ではなくマイルストーン、エクイティ、収益の一部という形で関わります。",
       },
       {
         number: "3",
-        title: "選び抜くパートナーシップ",
+        title: "実際に作る人が作る",
         description:
-          "同時に手がけるプロダクトはごく少数。大切にしているのは機会そのもの、市場、そして創業者のコミットメントです。",
-      },
-      {
-        number: "4",
-        title: "助言だけでなく、実際に作る",
-        description:
-          "最初のプロトタイプからユーザーが頼るバージョンまで、実際にプロダクトを形にするのが私たちです。",
-      },
-      {
-        number: "5",
-        title: "深い技術力",
-        description:
-          "最新のスタック、クラウド基盤、セキュリティを最初から組み込みます。後付けではありません。",
-      },
-      {
-        number: "6",
-        title: "ローンチ後も伴走する",
-        description:
-          "Allonsがその一番わかりやすい例です。マイルストーンを重ねながら、チームと一緒にプロダクトを育て続けています。",
+          "コードを書き、画面を設計し、インフラを運用するのは同じメンバーです。間にアカウントマネージャーはいません。",
       },
     ],
   },

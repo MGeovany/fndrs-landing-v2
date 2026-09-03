@@ -453,8 +453,8 @@ export default function Hero() {
             <MagneticButton
               icon={<ArrowDown strokeWidth={2.5} />}
               onClick={() => {
-                trackButtonClick("view_services", "hero_section");
-                router.push(`/${language}/#services`);
+                trackButtonClick("view_allons", "hero_section");
+                router.push(`/${language}/#allons`);
               }}
             >
               {t.ctaSecondary}
